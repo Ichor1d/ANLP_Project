@@ -2,12 +2,7 @@ import os.path
 
 from conll_reader import readConll
 from shared.CONSTANTS import datasetDict
-from shared.classes import Corpus, Mention
-import re
-
-
-def createMention(mention):
-    print(f"A new mention for {mention} would have been created.")
+from shared.classes import Corpus
 
 
 def extractMentionsFromConLL(datasetName: str, corpus: Corpus, topicLevel: bool, topicName: str):
