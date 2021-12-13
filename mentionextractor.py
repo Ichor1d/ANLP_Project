@@ -5,6 +5,37 @@ from shared.CONSTANTS import datasetDict
 from shared.classes import Corpus
 
 
+def _findSubMention(save_data, data, j):
+    momentary_data = data[j]
+    mention = momentary_data.split("\t")[4].split("|")
+    for ment in mention:
+        if ment.startswith("start"):
+            mention = ment
+            break
+
+    tokens = [save_data[j]]
+    data[j] = data[j].replace(f"start{mention}", "SUBBED")
+    for k in range(j+1, len(data)):
+        # assumption: there is no -| TAG) or TAG | -
+        if "start" in data[k] and f"start{mention}" not in data[k]:
+            tokens.append(save_data[k])
+            _findSubMention(save_data, data, k)
+        elif "-" in data[k]:
+            tokens.append(save_data[k])
+            data[k].replace("-", "SUBBED")
+        elif "SUBBED" in data[j]:
+            tokens.append(save_data[j])
+        elif f"end{mention}" in data[k]:
+            tokens.append(save_data[k])
+            data[k] = data[k].replace(f"end{mention}", "SUBBED", 1)
+            with open("./data/output/output.txt", 'a', encoding="utf8") as f:
+                f.write(f"Tokens for annotation: {mention}:\n")
+                for token in tokens:
+                    f.write(f"{token}\n")
+                f.write("\n\n")
+            break
+
+
 def extractMentionsFromConLL(datasetName: str, corpus: Corpus, topicLevel: bool, topicName: str):
     with open(datasetDict[datasetName], "r", encoding="utf8") as f:
         data = f.read()
@@ -41,6 +72,9 @@ def extractMentionsFromConLL(datasetName: str, corpus: Corpus, topicLevel: bool,
     """
     save_data = data.copy()
     for mention in possible_mentions:
+        """
+            Data "pre processing"
+        """
         for i, datum in enumerate(data):
             if f"({mention})" in datum:
                 with open("./data/output/output.txt", 'a', encoding="utf8") as f:
@@ -59,9 +93,15 @@ def extractMentionsFromConLL(datasetName: str, corpus: Corpus, topicLevel: bool,
                     data[i] = data[i].replace(f"start{mention}", "DONE")
                     for j in range(i+1, len(data)):
                         # assumption: there is no -| TAG) or TAG | -
-                        if "-" in data[j]:
+                        if "start" in data[j] and f"start{mention}" not in data[j]:
+                            tokens.append(save_data[j])
+                            _findSubMention(save_data, data, j)
+                        elif "-" in data[j]:
                             tokens.append(save_data[j])
                             data[j].replace("-", "DONE")
+                        elif "SUBBED" in data[j]:
+                            tokens.append(save_data[j])
+                            data[j].replace("SUBBED", "DONE")
                         elif f"end{mention}" in data[j]:
                             tokens.append(save_data[j])
                             data[j] = data[j].replace(f"end{mention}", "DONE", 1)

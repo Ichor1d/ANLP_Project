@@ -1,7 +1,10 @@
+# single files.
 format.txt
 
 /test_set_structure.png
 /entity_mentions_1ecb.png
 /ignore_this.py
+
+# directories.
 __pycache__
 .idea

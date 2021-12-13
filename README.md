@@ -16,9 +16,8 @@ Each `Token` is a representative of the word itself.
 
 But so far each of these is missing the correct annotated mentions.\
 In order to add the mentions to the data, the `MentionExtractor.py` needs to be run, but this is still WIP.
-\
-\
-\
+<br>
+<br>
 ## Next Steps:
 + Check, if the written mentions after running the `MentionExtractor.py` are correct.
   + The written mentions so far only contain all tokens which should belong to this mention.
