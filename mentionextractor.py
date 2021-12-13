@@ -102,8 +102,11 @@ def extractMentionsFromConLL(datasetName: str, corpus: Corpus, topicLevel: bool,
                         elif "SUBBED" in data[j]:
                             tokens.append(save_data[j])
                             data[j].replace("SUBBED", "DONE")
-                        elif f"end{mention}" in data[j]:
+                        elif "DONE" in data[j]:
                             tokens.append(save_data[j])
+                        if f"end{mention}" in data[j]:
+                            if "DONE" not in data[j]:
+                                tokens.append(save_data[j])
                             data[j] = data[j].replace(f"end{mention}", "DONE", 1)
                             with open("./data/output/output.txt", 'a', encoding="utf8") as f:
                                 f.write(f"Tokens for annotation: {mention}:\n")
@@ -119,7 +122,6 @@ def extractMentionsFromConLL(datasetName: str, corpus: Corpus, topicLevel: bool,
         # token_id = entry_split[2]
         # token = entry_split[3]
         # sing_mention = Mention(document_name, sent_id, token_id)
-
     return corpus
 
 
