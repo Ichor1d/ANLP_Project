@@ -407,6 +407,9 @@ class Mention(object):
             if token.get_token() == self.mention_head or self.mention_head in token.get_token():
                 return token.token_id
 
+    def add_token(self, token):
+        self.tokens.append(token)
+
     def __str__(self):
         return '{}_{}'.format(self.mention_str, self.gold_tag)
 
