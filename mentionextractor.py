@@ -1,7 +1,7 @@
 import os.path
 
 from conll_reader import readConll
-from shared.CONSTANTS import datasetDict
+from shared.CONSTANTS import dataset_path
 from shared.classes import Corpus
 
 
@@ -37,7 +37,7 @@ def _findSubMention(save_data, data, j):
 
 
 def extractMentionsFromConLL(datasetName: str, corpus: Corpus, topicLevel: bool, topicName: str):
-    with open(datasetDict[datasetName], "r", encoding="utf8") as f:
+    with open(dataset_path[datasetName], "r", encoding="utf8") as f:
         data = f.read()
 
     data = data.split("\n")

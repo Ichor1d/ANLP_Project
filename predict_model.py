@@ -1,4 +1,8 @@
 from conll_reader import readConll
+from features.build_features import match_allen_srl_structures
+from mentionsfromjson import loadMentionsFromJson
+from shared.CONSTANTS import CONFIG
+from srl_things import get_srl_data
 
 
 def _chooseDataset():
@@ -20,8 +24,8 @@ if __name__ == '__main__':
         print("Not a valid input.")
         inp = _chooseDataset()
 
-    datasetName = 'ECB+' if inp == 0 else 'MEANTime'
-    corpus = readConll(datasetName)
+    CONFIG['datasetName'] = 'ECB+' if inp == 0 else 'MEANTime'
+    corpus = readConll()
 
     topicLevel = False
     print("Do you want a specific topic?\n0: yes \n1: no (default)")
@@ -38,6 +42,13 @@ if __name__ == '__main__':
             except ValueError:
                 print(f"Only numbers between 0 and {len(corpus.topics)} are allowed.\n")
         topic_name = list(corpus.topics)[inp]
-        corpus = readConll(datasetName, topicLevel, topic_name)
+        corpus = readConll(topicLevel, topic_name)
+
+    inp = int(input("Do you want to use singletons?\n0: Yes\n1: No\n>>> "))
+    CONFIG['use_singletons'] = inp == 0
+
+    corpus = loadMentionsFromJson(corpus)
+    srl_data = get_srl_data(corpus)
+    match_allen_srl_structures(corpus, srl_data, True)
 
     print("Fertig.")

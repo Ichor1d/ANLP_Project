@@ -1,5 +1,8 @@
-from shared.CONSTANTS import datasetDict, meantimeNameConverter
+from features.build_features import match_allen_srl_structures
+from mentionsfromjson import loadMentionsFromJson
+from shared.CONSTANTS import dataset_path, meantimeNameConverter, CONFIG
 from shared.classes import Token, Sentence, Document, Topic, Corpus
+from srl_things import get_srl_data
 
 """
     To no real surprise the topic_id/document_id is not consistent between meantime & ecb+
@@ -10,18 +13,19 @@ from shared.classes import Token, Sentence, Document, Topic, Corpus
 """
 
 
-def readConll(datasetName: str, topicLevel=False, specificDocument="") -> Corpus:
+def readConll(topicLevel=False, specificDocument="") -> Corpus:
     numberOfSeenTopics = 1
-    with open(datasetDict[datasetName], "r", encoding="utf8") as f:
+    dataset_name = CONFIG['dataset_name']
+    with open(dataset_path[dataset_name], "r") as f:
         data = f.read()
 
     data = data.split("\n")
 
     if topicLevel:
-        if datasetName == "MEANTime":
+        if dataset_name == "MEANTime":
             specificDocument = meantimeNameConverter[specificDocument]
         data = [x for x in data if x.split("\t")[0].startswith(specificDocument + "/")]
-        data.append("# end document")
+        data.append("#end document")
 
     prev_sentence_id = "0"
     sentence = Sentence(0)
@@ -40,28 +44,31 @@ def readConll(datasetName: str, topicLevel=False, specificDocument="") -> Corpus
         if not bs:
             continue
 
-        # if the first entry is a # we now its the beginning or the end line
-        if bs[0] == "#":
-            if bs.split(" ")[1] == "begin":
-                # if its the first entry just ignore it
-                continue
+        # if the first entry is a # we know its the beginning or the end line
+        if bs.startswith("#begin"):
+            # if its the first entry just ignore it
+            continue
+        if bs.startswith("#end"):
             # if its the last entry save everything and quit
-            if bs.split(" ")[1] == "end":
-                if datasetName == "MEANTime":
-                    topic_name = f"{numberOfSeenTopics}MEANTIMEcross"
-                    numberOfSeenTopics += 1
-                topic.add_doc(document_name, document)
-                corpus.add_topic(topic_name, topic)
-                break
+            continue
+
         split_line = bs.split("\t")
         topic_and_document = split_line[0]
         topic_name = topic_and_document.split("/")[0]
         document_name = topic_and_document.split("/")[1]
-        if datasetName == "ECB+":
-            if 'ecbplus' in topic_name:
-                document_name = topic_name.replace("ecbplus", f"_{document_name}ecbplus")
-            elif 'ecb' in topic_name:
-                document_name = topic_name.replace("ecb", f"_{document_name}ecb")
+        if dataset_name == "ECB+":
+            document_name = topic_name.replace("ecb", f"_{document_name}ecb")
+
+        sentence_id = split_line[1]
+        # if we start a new sentence add the old sentence to the document
+        if sentence_id != prev_sentence_id:
+            if prev_sentence_id != "":
+                document.add_sentence(prev_sentence_id, sentence)
+            sentence = Sentence(sentence_id)
+            prev_sentence_id = sentence_id
+
+        token = Token(split_line[2], split_line[3])
+        sentence.add_token(token)
 
         # if we start a new document (name of the document changes)
         if document_name != prev_document_name:
@@ -73,22 +80,17 @@ def readConll(datasetName: str, topicLevel=False, specificDocument="") -> Corpus
         # if a new topic starts (name of the topic changes)
         if topic_name != prev_topic_id:
             if prev_topic_id != "":
-                if datasetName == "MEANTime":
+                if dataset_name == "MEANTime":
                     prev_topic_id = f"{numberOfSeenTopics}MEANTIMEcross"
                     numberOfSeenTopics += 1
                 corpus.add_topic(prev_topic_id, topic)
             topic = Topic(topic_name)
             prev_topic_id = topic_name
 
-        sentence_id = split_line[1]
-        # if we start a new sentence add the old sentence to the document
-        if sentence_id != prev_sentence_id:
-            if prev_sentence_id != "":
-                document.add_sentence(sentence_id, sentence)
-            sentence = Sentence(sentence_id)
-            prev_sentence_id = sentence_id
-
-        token = Token(split_line[2], split_line[3])
-        sentence.add_token(token)
+    if prev_topic_id not in corpus.topics:
+        if dataset_name == "MEANTime":
+            topic_name = f"{numberOfSeenTopics}MEANTIMEcross"
+        topic.add_doc(document_name, document)
+        corpus.add_topic(topic_name, topic)
 
     return corpus
