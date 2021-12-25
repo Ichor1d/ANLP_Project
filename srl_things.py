@@ -5,11 +5,10 @@ from allennlp.predictors import Predictor
 
 from typing import Dict, List
 
-from conll_reader import readConll
 from features.allen_srl_reader import SRLSentence, SRLVerb, SRLArg
-from features.build_features import match_allen_srl_structures
 from shared.classes import Corpus
 from shared.CONSTANTS import CONFIG
+from tqdm import tqdm
 
 
 def get_srl_data(corpus: Corpus) -> Dict[str, Dict[str, SRLSentence]]:
@@ -30,8 +29,8 @@ def get_srl_data(corpus: Corpus) -> Dict[str, Dict[str, SRLSentence]]:
     predictor = Predictor.from_path(CONFIG['bert_file'])
 
     srl_data = defaultdict(lambda: defaultdict(SRLSentence))
-    for topic in list(corpus.topics.values()):
-        for doc_id, doc in topic.docs.items():
+    for topic in tqdm(list(corpus.topics.values()), desc="Overall"):
+        for doc_id, doc in tqdm(topic.docs.items(), desc=topic.topic_id, leave=False):
 
             for sent_id, sent in doc.sentences.items():
                 srl_sent = SRLSentence(doc_id, sent_id)

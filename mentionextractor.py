@@ -1,6 +1,6 @@
 import os.path
 
-from conll_reader import readConll
+from conll_reader import read_CoNLL
 from shared.CONSTANTS import dataset_path
 from shared.classes import Corpus
 
@@ -133,4 +133,4 @@ if __name__ == '__main__':
     if os.path.exists("./data/output/output.txt"):
         os.remove("./data/output/output.txt")
 
-    extractMentionsFromConLL("MEANTime", readConll("MEANTime"), True, "corpus_airbus")
+    extractMentionsFromConLL("MEANTime", read_CoNLL("MEANTime"), True, "corpus_airbus")

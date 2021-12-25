@@ -3,6 +3,11 @@ dataset_path = {
     'MEANTime': 'data/meantime/meantime.conll'
 }
 
+train_test_path = {
+    'ECB+': 'data/ecb+/train_test_split.json',
+    'MEANTime': 'data/meantime/train_test_split.json'
+}
+
 mentions_path = {
     'ECB+': 'data/ecb+/mentions/',
     'MEANTime': 'data/meantime/mentions/'
@@ -20,6 +25,8 @@ CONFIG = {
     'dataset_name': 'MEANTime',
     'use_singletons': False,
     'bert_file': 'resources/word_vector_models/BERT_SRL/bert-base-srl-2019.06.17.tar.gz',
+    'elmo_options_file': 'resources/word_vector_models/ELMO_Original_55B/elmo_2x4096_512_2048cnn_2xhighway_5.5B_options.json',
+    'elmo_weight_file': 'resources/word_vector_models/ELMO_Original_55B/elmo_2x4096_512_2048cnn_2xhighway_5.5B_weights.hdf5',
     'use_dep': True
 }
 
@@ -37,10 +44,10 @@ EECDCR_CONFIG_DICT = {
     "use_binary_feats": True,
 
     "test_use_gold_mentions": True,
-    "wd_entity_coref_file": "data/external/stanford_neural_wd_entity_coref_out/ecb_wd_coref.json",
+    "wd_entity_coref_file": "data/ecb+/ecb_wd_coref.json",
     "merge_iters": 2,
 
-    "load_predicted_topics": True,
+    "load_predicted_topics": False,
     "predicted_topics_path": "data/external/document_clustering/predicted_topics",
 
     "seed": 1,

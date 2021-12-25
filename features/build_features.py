@@ -2,6 +2,7 @@ import torch
 
 from features.extraction_utils import *
 from shared.CONSTANTS import CONFIG
+from tqdm import tqdm
 
 nlp = spacy.load('en_core_web_sm')
 
@@ -265,7 +266,7 @@ def match_allen_srl_structures(dataset, srl_data, is_gold):
     matched_events_count = 0
     matched_args_count = 0
 
-    for topic_id, topic in dataset.topics.items():
+    for topic_id, topic in tqdm(dataset.topics.items(), desc="Match allen srl structures"):
         for doc_id, doc in topic.docs.items():
             for sent_id, sent in doc.get_sentences().items():
                 # Handling nominalizations in case we don't use syntactic dependencies (which already handle this)
@@ -625,7 +626,7 @@ def load_elmo_embeddings(dataset, elmo_embedder, set_pred_mentions):
     '''
     for topic_id, topic in dataset.topics.items():
         for doc_id, doc in topic.docs.items():
-            for sent_id, sent in doc.get_sentences().items():
+            for sent_id, sent in tqdm(doc.get_sentences().items(), desc=doc_id):
                 set_elmo_embeddings_to_mentions(elmo_embedder, sent, set_pred_mentions)
 
 
