@@ -241,7 +241,11 @@ def write_mention_based_wd_clusters(corpus, is_event, is_gold, out_file):
                         next_doc_increment += doc_increment
                         doc_names_to_new_coref_id[mention.doc_id] = next_doc_increment
 
-                    coref_chain += doc_names_to_new_coref_id[mention.doc_id]
+                    # TODO: delete the if / else Statement. And check why this happens in some cases with MEANTime.
+                    if coref_chain != "-":
+                        coref_chain += doc_names_to_new_coref_id[mention.doc_id]
+                    else:
+                        print(f"Problem with coref_chain {coref_chain}.")
 
                     out_coref.write('{}\t({})\n'.format(generic,coref_chain))
     out_coref.write('#end document\n')

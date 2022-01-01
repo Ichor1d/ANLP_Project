@@ -29,7 +29,7 @@ def get_srl_data(corpus: Corpus) -> Dict[str, Dict[str, SRLSentence]]:
     predictor = Predictor.from_path(CONFIG['bert_file'])
 
     srl_data = defaultdict(lambda: defaultdict(SRLSentence))
-    for topic in tqdm(list(corpus.topics.values()), desc="Overall"):
+    for topic in list(corpus.topics.values()):
         for doc_id, doc in tqdm(topic.docs.items(), desc=topic.topic_id, leave=False):
 
             for sent_id, sent in doc.sentences.items():

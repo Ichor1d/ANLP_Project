@@ -1,3 +1,5 @@
+import datetime
+
 from conll_reader import read_CoNLL
 from features.build_features import match_allen_srl_structures, load_elmo_embeddings
 from features.create_elmo_embeddings import ElmoEmbedding
@@ -74,5 +76,6 @@ if __name__ == '__main__':
     print(f"Begin test after {time.time() - start}")
     test_model(corpus)
 
-    print(f"Done after - {time.time() - start}")
+    end = (time.time() - start)
+    print(f"Done - Duration: {str(datetime.timedelta(seconds=end))}")
     print("")

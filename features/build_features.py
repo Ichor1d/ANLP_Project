@@ -625,8 +625,8 @@ def load_elmo_embeddings(dataset, elmo_embedder, set_pred_mentions):
     :return:
     '''
     for topic_id, topic in dataset.topics.items():
-        for doc_id, doc in topic.docs.items():
-            for sent_id, sent in tqdm(doc.get_sentences().items(), desc=doc_id):
+        for doc_id, doc in tqdm(topic.docs.items(), desc=topic_id):
+            for sent_id, sent in doc.get_sentences().items():
                 set_elmo_embeddings_to_mentions(elmo_embedder, sent, set_pred_mentions)
 
 

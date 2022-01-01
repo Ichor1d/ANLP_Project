@@ -44,7 +44,8 @@ EECDCR_CONFIG_DICT = {
     "use_binary_feats": True,
 
     "test_use_gold_mentions": True,
-    "wd_entity_coref_file": "data/ecb+/ecb_wd_coref.json",
+    "wd_entity_coref_file": "data/external/wd_coref.json",
+    # "wd_entity_coref_file": "data/ecb+/ecb_wd_coref.json",
     "merge_iters": 2,
 
     "load_predicted_topics": False,

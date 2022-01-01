@@ -6707,7 +6707,7 @@ corpus_airbus/61389	9	12	a	-
 corpus_airbus/61389	9	13	spokesman	-
 corpus_airbus/61389	9	14	for	-
 corpus_airbus/61389	9	15	Force	-
-corpus_airbus/61389	9	16	OuvriËre	-
+corpus_airbus/61389	9	16	Ouvri√®re	-
 corpus_airbus/61389	9	17	,	-
 corpus_airbus/61389	9	18	the	-
 corpus_airbus/61389	9	19	main	-
@@ -7341,7 +7341,7 @@ corpus_airbus/71426	7	9	a	-
 corpus_airbus/71426	7	10	catalogue	-
 corpus_airbus/71426	7	11	value	-
 corpus_airbus/71426	7	12	of	-
-corpus_airbus/71426	7	13	Ä	-
+corpus_airbus/71426	7	13	‚Ç¨	-
 corpus_airbus/71426	7	14	1.78	-
 corpus_airbus/71426	7	15	billion	-
 corpus_airbus/71426	7	16	(	-
@@ -7481,7 +7481,7 @@ corpus_airbus/71426	11	8	fell	-
 corpus_airbus/71426	11	9	2.5	-
 corpus_airbus/71426	11	10	percent	-
 corpus_airbus/71426	11	11	to	-
-corpus_airbus/71426	11	12	Ä	-
+corpus_airbus/71426	11	12	‚Ç¨	-
 corpus_airbus/71426	11	13	2.73	-
 corpus_airbus/71426	11	14	(	-
 corpus_airbus/71426	11	15	$	-
@@ -11174,33 +11174,33 @@ corpus_apple/10450	9	13	.	-
 corpus_apple/10450	10	0	Steve	-
 corpus_apple/10450	10	1	called	(OTH57302407927532295)
 corpus_apple/10450	10	2	podcasting	-
-corpus_apple/10450	10	3	ì	-
+corpus_apple/10450	10	3	‚Äú	-
 corpus_apple/10450	10	4	Wayne	-
-corpus_apple/10450	10	5	í	-
+corpus_apple/10450	10	5	‚Äô	-
 corpus_apple/10450	10	6	s	-
 corpus_apple/10450	10	7	World	-
 corpus_apple/10450	10	8	for	-
 corpus_apple/10450	10	9	radio	-
-corpus_apple/10450	10	10	î	-
+corpus_apple/10450	10	10	‚Äù	-
 corpus_apple/10450	10	11	.	-
 
 corpus_apple/10450	11	0	He	-
 corpus_apple/10450	11	1	called	(OTH57303454817531915)
 corpus_apple/10450	11	2	it	-
 corpus_apple/10450	11	3	the	-
-corpus_apple/10450	11	4	ì	-
+corpus_apple/10450	11	4	‚Äú	-
 corpus_apple/10450	11	5	hottest	-
 corpus_apple/10450	11	6	thing	-
 corpus_apple/10450	11	7	going	-
 corpus_apple/10450	11	8	in	-
 corpus_apple/10450	11	9	radio	-
-corpus_apple/10450	11	10	î	-
+corpus_apple/10450	11	10	‚Äù	-
 corpus_apple/10450	11	11	,	-
 corpus_apple/10450	11	12	and	-
 corpus_apple/10450	11	13	,	-
-corpus_apple/10450	11	14	ì	-
+corpus_apple/10450	11	14	‚Äú	-
 corpus_apple/10450	11	15	exciting	-
-corpus_apple/10450	11	16	î	-
+corpus_apple/10450	11	16	‚Äù	-
 corpus_apple/10450	11	17	.	-
 
 corpus_apple/10450	12	0	There	-
@@ -11294,7 +11294,7 @@ corpus_apple/10450	17	14	same	-
 corpus_apple/10450	17	15	time	-
 corpus_apple/10450	17	16	as	-
 corpus_apple/10450	17	17	Microsoft	-
-corpus_apple/10450	17	18	í	-
+corpus_apple/10450	17	18	‚Äô	-
 corpus_apple/10450	17	19	s	-
 corpus_apple/10450	17	20	Longhorn	-
 corpus_apple/10450	17	21	.	-
@@ -11406,17 +11406,17 @@ corpus_apple/10450	21	4	OS	-
 corpus_apple/10450	21	5	X	-
 corpus_apple/10450	21	6	has	-
 corpus_apple/10450	21	7	had	-
-corpus_apple/10450	21	8	ì	-
+corpus_apple/10450	21	8	‚Äú	-
 corpus_apple/10450	21	9	a	-
 corpus_apple/10450	21	10	secret	-
 corpus_apple/10450	21	11	double	-
 corpus_apple/10450	21	12	life	-
-corpus_apple/10450	21	13	î	-
+corpus_apple/10450	21	13	‚Äù	-
 corpus_apple/10450	21	14	and	-
 corpus_apple/10450	21	15	OS	-
 corpus_apple/10450	21	16	X	-
 corpus_apple/10450	21	17	had	-
-corpus_apple/10450	21	18	ì	-
+corpus_apple/10450	21	18	‚Äú	-
 corpus_apple/10450	21	19	been	-
 corpus_apple/10450	21	20	compiled	-
 corpus_apple/10450	21	21	for	-
@@ -11427,7 +11427,7 @@ corpus_apple/10450	21	25	for	-
 corpus_apple/10450	21	26	five	-
 corpus_apple/10450	21	27	years	-
 corpus_apple/10450	21	28	.	-
-corpus_apple/10450	21	29	î	-
+corpus_apple/10450	21	29	‚Äù	-
 
 corpus_apple/10450	22	0	He	-
 corpus_apple/10450	22	1	talked	(SPE57304645462218558)
@@ -11471,10 +11471,10 @@ corpus_apple/10450	24	1	said	(SPE57304737669126772)
 corpus_apple/10450	24	2	that	-
 corpus_apple/10450	24	3	Apple	-
 corpus_apple/10450	24	4	is	-
-corpus_apple/10450	24	5	ì	-
+corpus_apple/10450	24	5	‚Äú	-
 corpus_apple/10450	24	6	getting	-
 corpus_apple/10450	24	7	ready	-
-corpus_apple/10450	24	8	î	-
+corpus_apple/10450	24	8	‚Äù	-
 corpus_apple/10450	24	9	for	-
 corpus_apple/10450	24	10	the	-
 corpus_apple/10450	24	11	transition	-
@@ -15414,7 +15414,7 @@ corpus_apple/238039	10	11	said	-
 corpus_apple/238039	10	12	,	-
 corpus_apple/238039	10	13	"	-
 corpus_apple/238039	10	14	It	-
-corpus_apple/238039	10	15	í	-
+corpus_apple/238039	10	15	‚Äô	-
 corpus_apple/238039	10	16	s	-
 corpus_apple/238039	10	17	very	-
 corpus_apple/238039	10	18	common	-
@@ -16671,7 +16671,7 @@ corpus_apple/279494	4	32	and	-
 corpus_apple/279494	4	33	expectations	-
 corpus_apple/279494	4	34	as	-
 corpus_apple/279494	4	35	Apple	-
-corpus_apple/279494	4	36	í	-
+corpus_apple/279494	4	36	‚Äô	-
 corpus_apple/279494	4	37	s	-
 corpus_apple/279494	4	38	C.E.O.,	-
 corpus_apple/279494	4	39	I	-
@@ -17096,7 +17096,7 @@ corpus_apple/279494	23	13	19.37	-
 corpus_apple/279494	23	14	in	-
 corpus_apple/279494	23	15	after	-
 corpus_apple/279494	23	16	hours	-
-corpus_apple/279494	23	17	tradingóa	-
+corpus_apple/279494	23	17	trading‚Äîa	-
 corpus_apple/279494	23	18	-	-
 corpus_apple/279494	23	19	a	-
 corpus_apple/279494	23	20	drop	-
@@ -17383,7 +17383,7 @@ corpus_apple/287096	12	25	"	-
 corpus_apple/287096	12	26	,	-
 corpus_apple/287096	12	27	states	-
 corpus_apple/287096	12	28	:	-
-corpus_apple/287096	12	29	ì	-
+corpus_apple/287096	12	29	‚Äú	-
 corpus_apple/287096	12	30	Apple	-
 corpus_apple/287096	12	31	has	-
 corpus_apple/287096	12	32	lost	(OTH57385810373291586)
@@ -17452,7 +17452,7 @@ corpus_apple/287096	14	19	foundation	-
 corpus_apple/287096	14	20	of	-
 corpus_apple/287096	14	21	Apple	-
 corpus_apple/287096	14	22	.	-
-corpus_apple/287096	14	23	î	-
+corpus_apple/287096	14	23	‚Äù	-
 
 corpus_apple/287096	15	0	United	-
 corpus_apple/287096	15	1	States	-
@@ -17469,7 +17469,7 @@ corpus_apple/287096	15	11	greatest	-
 corpus_apple/287096	15	12	of	-
 corpus_apple/287096	15	13	American	-
 corpus_apple/287096	15	14	innovators	-
-corpus_apple/287096	15	15	ó	-
+corpus_apple/287096	15	15	‚Äî	-
 corpus_apple/287096	15	16	brave	-
 corpus_apple/287096	15	17	enough	-
 corpus_apple/287096	15	18	to	-
@@ -20210,7 +20210,7 @@ corpus_apple/78899	6	8	at	-
 corpus_apple/78899	6	9	$	-
 corpus_apple/78899	6	10	149	-
 corpus_apple/78899	6	11	/	-
-corpus_apple/78899	6	12	£	-
+corpus_apple/78899	6	12	¬£	-
 corpus_apple/78899	6	13	99	-
 corpus_apple/78899	6	14	,	-
 corpus_apple/78899	6	15	but	-
@@ -20225,7 +20225,7 @@ corpus_apple/78899	6	23	at	-
 corpus_apple/78899	6	24	$	-
 corpus_apple/78899	6	25	199	-
 corpus_apple/78899	6	26	/	-
-corpus_apple/78899	6	27	£	-
+corpus_apple/78899	6	27	¬£	-
 corpus_apple/78899	6	28	129	-
 corpus_apple/78899	6	29	.	-
 
@@ -20261,7 +20261,7 @@ corpus_apple/78899	7	28	of	-
 corpus_apple/78899	7	29	$	-
 corpus_apple/78899	7	30	79	-
 corpus_apple/78899	7	31	/	-
-corpus_apple/78899	7	32	£	-
+corpus_apple/78899	7	32	¬£	-
 corpus_apple/78899	7	33	49	-
 corpus_apple/78899	7	34	.	-
 
@@ -21011,7 +21011,7 @@ corpus_apple/9549	10	17	has	-
 corpus_apple/9549	10	18	had	-
 corpus_apple/9549	10	19	a	-
 corpus_apple/9549	10	20	few	-
-corpus_apple/9549	10	21	bugsósuch	-
+corpus_apple/9549	10	21	bugs‚Äîsuch	-
 corpus_apple/9549	10	22	as	-
 corpus_apple/9549	10	23	reports	-
 corpus_apple/9549	10	24	of	-
@@ -41213,7 +41213,7 @@ corpus_stock/76437	8	5	Bank	-
 corpus_stock/76437	8	6	of	-
 corpus_stock/76437	8	7	Japan	-
 corpus_stock/76437	8	8	injected	-
-corpus_stock/76437	8	9	•	-
+corpus_stock/76437	8	9	¬•	-
 corpus_stock/76437	8	10	1	-
 corpus_stock/76437	8	11	trillion	-
 corpus_stock/76437	8	12	into	-

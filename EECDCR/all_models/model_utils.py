@@ -14,6 +14,7 @@ import _pickle as cPickle
 from EECDCR.all_models.bcubed_scorer import *
 import matplotlib.pyplot as plt
 from spacy.lang.en import English
+from tqdm import tqdm
 
 from shared.classes import *
 
@@ -1557,7 +1558,7 @@ def test_models(test_set, cd_event_model,cd_entity_model, device,
     all_entity_mentions = []
 
     with torch.no_grad():
-        for topic_id in topics_keys:
+        for topic_id in tqdm(topics_keys):
             topic = topics[topic_id]
             topics_counter += 1
 
@@ -1817,7 +1818,7 @@ def sample_errors(error_list, out_path):
     '''
     random.shuffle(error_list)
     sample = error_list[:50]
-    with open(out_path,'w') as f:
+    with open(out_path, 'w', encoding="utf8") as f:
         for error in sample:
             f.write('Wrong mention - {}\n'.format(error[0]))
             f.write('cluster: \n')

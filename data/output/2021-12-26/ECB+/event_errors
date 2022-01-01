@@ -1,0 +1,130 @@
+Wrong mention - mention: WWDC Keynote_ACT18089869304330059
+sent: Apple has unveiled the next generation of MacBook Pro at the WWDC Keynote in San Francisco .
+cluster: 
+mention: conference_ACT17764126188523329
+sent: ? Apple is certainly making WWDC a hardware conference this year - - it just unveiled a new MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day . ?
+
+mention: conference_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: conference_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: WWDC_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: WWDC_ACT17764126188523329
+sent: Apple unveils new MacBook Pro with Ivy Bridge at WWDC
+
+mention: WWDC_ACT17764126188523329
+sent: Apple has chosen WWDC week to announce an update to its MacBook Air line .
+
+mention: WWDC_ACT17764126188523329
+sent: ? Apple is certainly making WWDC a hardware conference this year - - it just unveiled a new MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day . ?
+
+mention: WWDC_ACT17764126188523329
+sent: Apple unveils new MacBook Pro with Ivy Bridge at WWDC
+
+mention: WWDC 2012_ACT17764126188523329
+sent: As rumored , new 11 - inch and 13 - inch MacBook Air models have just been officially announced by Apple at WWDC 2012 .
+
+mention: WWDC_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: WWDC_ACT17764126188523329
+sent: Apple unveils new MacBook Pro with Ivy Bridge at WWDC
+
+mention: WWDC Keynote_ACT18089869304330059
+sent: Apple has unveiled the next generation of MacBook Pro at the WWDC Keynote in San Francisco .
+
+mention: keynote_ACT18089869304330059
+sent: Announced at the company's Worldwide Developers Conference keynote , the new MacBook Pros will boast third - generation Ivy Bridge processors and the Nvidia GeForce GT650M graphics .
+
+mention: WWDC12_ACT17764126188523329
+sent: Following a refresh to the MacBook Air lineup , Apple's Phil Schiller unveiled a revamped MacBook Pro today at WWDC12 .
+
+mention: San Francisco gathering's_ACT17764126188523329
+sent: ? Apple is certainly making WWDC a hardware conference this year - - it just unveiled a new MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day . ?
+
+mention: San Francisco gathering's_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: San Francisco gathering's_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+------------------------------------------------------S
+Wrong mention - mention: rumor mill_ACT17764150161295071
+sent: This isn't the revolutionary MacBook Pro the rumor mill suggested , but that's because this notebook isn't the only laptop Apple announced for the MacBook Pro lineup today .
+cluster: 
+mention: WWDC event_ACT17764126188523329
+sent: During the opening keynote of Apple's WWDC event Monday morning , Apple's Phil Schiller unveiled updates to both the MacBook Air and the MacBook Pro , as well as an entirely new next - generation MacBook Pro with a Retina Display .
+
+mention: rumor mill_ACT17764150161295071
+sent: This isn't the revolutionary MacBook Pro the rumor mill suggested , but that's because this notebook isn't the only laptop Apple announced for the MacBook Pro lineup today .
+
+------------------------------------------------------S
+Wrong mention - mention: WWDC event_ACT17764126188523329
+sent: During the opening keynote of Apple's WWDC event Monday morning , Apple's Phil Schiller unveiled updates to both the MacBook Air and the MacBook Pro , as well as an entirely new next - generation MacBook Pro with a Retina Display .
+cluster: 
+mention: WWDC event_ACT17764126188523329
+sent: During the opening keynote of Apple's WWDC event Monday morning , Apple's Phil Schiller unveiled updates to both the MacBook Air and the MacBook Pro , as well as an entirely new next - generation MacBook Pro with a Retina Display .
+
+mention: rumor mill_ACT17764150161295071
+sent: This isn't the revolutionary MacBook Pro the rumor mill suggested , but that's because this notebook isn't the only laptop Apple announced for the MacBook Pro lineup today .
+
+------------------------------------------------------S
+Wrong mention - mention: keynote_ACT18089869304330059
+sent: Announced at the company's Worldwide Developers Conference keynote , the new MacBook Pros will boast third - generation Ivy Bridge processors and the Nvidia GeForce GT650M graphics .
+cluster: 
+mention: conference_ACT17764126188523329
+sent: ? Apple is certainly making WWDC a hardware conference this year - - it just unveiled a new MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day . ?
+
+mention: conference_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: conference_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: WWDC_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: WWDC_ACT17764126188523329
+sent: Apple unveils new MacBook Pro with Ivy Bridge at WWDC
+
+mention: WWDC_ACT17764126188523329
+sent: Apple has chosen WWDC week to announce an update to its MacBook Air line .
+
+mention: WWDC_ACT17764126188523329
+sent: ? Apple is certainly making WWDC a hardware conference this year - - it just unveiled a new MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day . ?
+
+mention: WWDC_ACT17764126188523329
+sent: Apple unveils new MacBook Pro with Ivy Bridge at WWDC
+
+mention: WWDC 2012_ACT17764126188523329
+sent: As rumored , new 11 - inch and 13 - inch MacBook Air models have just been officially announced by Apple at WWDC 2012 .
+
+mention: WWDC_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: WWDC_ACT17764126188523329
+sent: Apple unveils new MacBook Pro with Ivy Bridge at WWDC
+
+mention: WWDC Keynote_ACT18089869304330059
+sent: Apple has unveiled the next generation of MacBook Pro at the WWDC Keynote in San Francisco .
+
+mention: keynote_ACT18089869304330059
+sent: Announced at the company's Worldwide Developers Conference keynote , the new MacBook Pros will boast third - generation Ivy Bridge processors and the Nvidia GeForce GT650M graphics .
+
+mention: WWDC12_ACT17764126188523329
+sent: Following a refresh to the MacBook Air lineup , Apple's Phil Schiller unveiled a revamped MacBook Pro today at WWDC12 .
+
+mention: San Francisco gathering's_ACT17764126188523329
+sent: ? Apple is certainly making WWDC a hardware conference this year - - it just unveiled a new MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day . ?
+
+mention: San Francisco gathering's_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+mention: San Francisco gathering's_ACT17764126188523329
+sent: Apple is certainly making WWDC a hardware conference this year - it just unveiled a refresh of the existing MacBook Pro running Intel's newer Ivy Bridge processors on the San Francisco gathering's opening day .
+
+------------------------------------------------------S

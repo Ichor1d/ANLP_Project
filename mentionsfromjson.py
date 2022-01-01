@@ -1,10 +1,41 @@
 import time
 
 from shared.classes import Corpus, EntityMention, EventMention
-from shared.CONSTANTS import mentions_path, CONFIG
+from shared.CONSTANTS import mentions_path, CONFIG, EECDCR_CONFIG_DICT
 import json
 import spacy
 from tqdm import tqdm
+
+
+def _save_coref_mentions(mentions):
+    coref_chain = 49999
+    mention_dict = {}
+    for mention in tqdm(mentions, desc="Coref Mentions"):
+        if mention.gold_tag not in mention_dict:
+            mention_dict[mention.gold_tag] = [mention]
+        else:
+            mention_dict[mention.gold_tag].append(mention)
+
+    cand_list = []
+    for key in mention_dict:
+        if len(mention_dict[key]) == 1:
+            continue
+
+        coref_chain += 1
+
+        for cand in mention_dict[key]:
+            cand_list.append({
+                "doc_id": cand.doc_id,
+                "sent_id": cand.sent_id,
+                "tokens_numbers": cand.tokens_numbers,
+                "tokens_str": cand.mention_str,
+                "coref_chain": f"{coref_chain}",
+                "is_continuous": cand.is_continuous,
+                "is_singleton": False
+            })
+
+    with open(EECDCR_CONFIG_DICT["wd_entity_coref_file"], "w") as f:
+        json.dump(cand_list, f)
 
 
 def _attachMentionToCorpus(mention, corpus: Corpus, is_event):
@@ -53,7 +84,13 @@ def _createMention(corpus, entry, nlp, eventOrEntity):
             break
         except:
             continue
-
+    """
+        The sentence_found is necessary, since the mention_.json also holds the mentions of topics we do not evaluate
+        while training / testing. In order to avoid this, we will just ignore it in this case.
+        And for some data sets - for example MEANTime - there is no direct connection between the topic id and the
+        document id. So we are unable to get the topic (unless with a giant list of all documents of all topics) and 
+        therefore can't say if we found a mention.
+    """
     if sentence_found:
         head_text = ""
         head_lemma = ""
@@ -67,12 +104,15 @@ def _createMention(corpus, entry, nlp, eventOrEntity):
 
         if eventOrEntity == 'entity':
             mention = EntityMention(doc_id, sent_id, tokens_number, tokens, mention_str,
-                          head_text, head_lemma, is_singleton, is_continuous, coref_chain, mention_type)
+                                    head_text, head_lemma, is_singleton, is_continuous, coref_chain, mention_type)
             sentence.add_gold_mention(mention, False)
+            return mention
         elif eventOrEntity == 'event':
             mention = EventMention(doc_id, sent_id, tokens_number, tokens, mention_str,
                                    head_text, head_lemma, is_singleton, is_continuous, coref_chain)
             sentence.add_gold_mention(mention, True)
+            return mention
+    return None
 
 
 def loadMentionsFromJson(corpus: Corpus = None):
@@ -80,6 +120,7 @@ def loadMentionsFromJson(corpus: Corpus = None):
     nlp = spacy.load("en_core_web_sm")
     entity_path = mentions_path[dataset_name] + "/entity_mentions_.json"
     event_path = mentions_path[dataset_name] + "/event_mentions_.json"
+    all_mentions = []
 
     with open(entity_path, "r", encoding="utf8") as f:
         entity_mentions = json.load(f)
@@ -88,7 +129,7 @@ def loadMentionsFromJson(corpus: Corpus = None):
         event_mentions = json.load(f)
 
     """
-        If you don't want to use singletons every mention, which is a singleton ('is_singleton': True) is removed
+        If you don't want to use singletons every mention which is a singleton ('is_singleton': True) is removed
     """
     if not CONFIG['use_singletons']:
         entity_mentions = [x for x in entity_mentions if not x['is_singleton']]
@@ -96,12 +137,19 @@ def loadMentionsFromJson(corpus: Corpus = None):
 
     print("Handling all entity mentions")
     for entity_mention in tqdm(entity_mentions, desc="Entity Mentions"):
-        _createMention(corpus, entity_mention, nlp, 'entity')
+        mention = _createMention(corpus, entity_mention, nlp, 'entity')
+        if mention is not None:
+            all_mentions.append(mention)
         # corpus = _attachMentionToCorpus(mention, corpus, False)
 
+    print("\n")
     print("Handling all event mentions")
     for event_mention in tqdm(event_mentions, desc="Event Mentions"):
-        _createMention(corpus, event_mention, nlp, 'event')
+        mention = _createMention(corpus, event_mention, nlp, 'event')
+        if mention is not None:
+            all_mentions.append(mention)
         # corpus = _attachMentionToCorpus(mention, corpus, True)
+
+    _save_coref_mentions(all_mentions)
 
     return corpus

@@ -1,0 +1,326 @@
+Topic - 40ecbplus
+cluster #1
+['10 : 27 am PDT, Jun 11th 2012_Singleton_TIME_1_40_10ecbplus']
+
+cluster #2
+['only_Singleton_NEG__23_40_10ecbplus']
+
+cluster #3
+['iOS 6_Singleton_NON__2_40_11ecbplus']
+
+cluster #4
+['took_Singleton_ACTI_13_40_11ecbplus']
+
+cluster #5
+['welcome_Singleton_ACTI_14_40_11ecbplus']
+
+cluster #6
+['developers_Singleton_HUMA_12_40_11ecbplus']
+
+cluster #7
+['Siri_Singleton_NON__5_40_11ecbplus']
+
+cluster #8
+['720p_Singleton_ACTI_37_40_11ecbplus']
+
+cluster #9
+['competitors_Singleton_HUMA_26_40_2ecbplus']
+
+cluster #10
+['week_Singleton_TIME_28_40_5ecbplus']
+
+cluster #11
+['chief_Singleton_ACTI_22_40_5ecbplus']
+
+cluster #12
+['onboard memory_Singleton_NON__19_40_5ecbplus']
+
+cluster #13
+['Connectivity_Singleton_ACTI_9_40_5ecbplus']
+
+cluster #14
+['portions_Singleton_NON__11_40_6ecbplus']
+
+cluster #15
+['tablet_Singleton_NON__31_40_8ecbplus']
+
+cluster #16
+['computer_Singleton_NON__32_40_8ecbplus']
+
+cluster #17
+['profile_Singleton_ACTI_19_40_9ecbplus']
+
+cluster #18
+['hardware_NON17764206852917641', 'hardware_NON17764206852917641', 'hardware_NON17764206852917641']
+
+cluster #19
+['up to 30 days_Singleton_TIME_21_40_8ecbplus', '30 days_Singleton_TIME_27_40_11ecbplus', '7 hours_Singleton_TIME_22_40_8ecbplus', '7 hours_Singleton_TIME_26_40_11ecbplus', '7 hours_Singleton_TIME_37_40_10ecbplus', 'seven hours_Singleton_TIME_34_40_4ecbplus']
+
+cluster #20
+['lineup_Singleton_NON__34_40_2ecbplus', 'lineup_Singleton_NON__20_40_10ecbplus']
+
+cluster #21
+['iPad_Singleton_NON__4_40_11ecbplus', 'iPhone_Singleton_NON__3_40_11ecbplus']
+
+cluster #22
+['upgrades_Singleton_ACTI_23_40_9ecbplus', 'upgrades_Singleton_ACTI_23_40_5ecbplus', 'upgrade_Singleton_ACTI_20_40_5ecbplus', 'spec upgrade_Singleton_ACTI_12_40_10ecbplus', 'boost_Singleton_ACTI_10_40_5ecbplus', 'boost_Singleton_ACTI_25_40_5ecbplus']
+
+cluster #23
+['line_Singleton_NON__41_40_4ecbplus', 'line_Singleton_NON__31_40_4ecbplus', 'line_Singleton_NON__5_40_2ecbplus', 'line_Singleton_ACTI_33_40_8ecbplus', 'blurs_Singleton_ACTI_14_40_8ecbplus']
+
+cluster #24
+['graphics_Singleton_ACTI_26_40_6ecbplus', 'integrated graphics_Singleton_NON__18_40_5ecbplus']
+
+cluster #25
+['Geforce GT 650M graphics card_Singleton_NON__4_40_9ecbplus', 'Nvidia GeForce GT 650m graphics_Singleton_NON__36_40_10ecbplus', 'Nvidia GeForce GT650M graphics_Singleton_NON__28_40_4ecbplus', 'Nvidia GeForce GT650M graphics card_Singleton_NON__25_40_4ecbplus', 'GeForce graphics card_Singleton_NON__19_40_11ecbplus']
+
+cluster #26
+['i7 quad core Intel processor_Singleton_NON__11_40_9ecbplus', 'i5_Singleton_NON__10_40_9ecbplus', 'i7 2.7 GHz quad - core_Singleton_NON__9_40_8ecbplus']
+
+cluster #27
+['Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'it_HUM17764075735414631', 'Apple_HUM17764075735414631', 'it_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'it_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'its_HUM17764075735414631', 'Apple_HUM17764075735414631', 'its_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', "Apple's_HUM17764075735414631", 'Apple_HUM17764075735414631', "Apple's_Singleton_HUMA_38_40_4ecbplus", 'Apple_HUM17764075735414631', "Apple's_HUM17764075735414631", "Apple's_HUM17764075735414631", "Apple's_HUM17764075735414631", 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_Singleton_HUMA_9_40_2ecbplus', 'Apple_Singleton_HUMA_11_40_2ecbplus', 'Apple_Singleton_HUMA_3_40_7ecbplus', "Apple's_HUM17764075735414631", 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', "Apple's_Singleton_HUMA_3_40_1ecbplus", "Intel's_HUM17764318691647091", "Intel's_HUM17764318691647091", "Intel's_HUM17764318691647091", 'It_Singleton_NON__19_40_6ecbplus', 'it_Singleton_NON__34_40_11ecbplus', 'it_Singleton_NON__28_40_6ecbplus']
+
+cluster #28
+['sees_Singleton_ACTI_13_40_5ecbplus', 'gets_Singleton_ACTI_38_40_11ecbplus']
+
+cluster #29
+['USB 3.0_Singleton_NON__33_40_11ecbplus', 'USB 3.0_Singleton_NON__35_40_10ecbplus', 'USB 2 / USB 3 port_Singleton_NON__20_40_6ecbplus', 'USB 3.0_Singleton_NON__20_40_11ecbplus', 'USB 2.0_Singleton_NON__29_40_4ecbplus', 'USB 3.0 support_Singleton_NON__30_40_4ecbplus', 'USB 3.0 ports_Singleton_NON__30_40_7ecbplus', 'USB 3.0 ports_Singleton_NON__19_40_1ecbplus', 'USB 3.0 ports_Singleton_NON__6_40_2ecbplus', 'two USB 3.0 ports_Singleton_NON__14_40_5ecbplus', 'two USB ports_Singleton_NON__14_40_9ecbplus', '2.0_Singleton_NON__16_40_9ecbplus', '3.0_Singleton_NON__15_40_9ecbplus', '0.71 inches thick_Singleton_ACTI_20_40_9ecbplus']
+
+cluster #30
+['comfortable_Singleton_ACTI_16_40_7ecbplus', 'comfortable_Singleton_ACTI_21_40_1ecbplus', "you're_Singleton_HUMA_22_40_7ecbplus", "you're_Singleton_HUMA_30_40_1ecbplus"]
+
+cluster #31
+['Phil Schiller_HUM18089813256581682', 'Phil Schiller_HUM18089813256581682', 'Phil Schiller_HUM18089813256581682', 'Apple CEO Tim Cook_HUM28688885136138789']
+
+cluster #32
+['Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge processors_NON17764260776630536', 'Ivy Bridge processors_Singleton_NON__17_40_5ecbplus', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Sandy Bridge_Singleton_NON__16_40_5ecbplus']
+
+cluster #33
+['thickness_Singleton_ACTI_22_40_9ecbplus', 'thin_Singleton_ACTI_24_40_8ecbplus']
+
+cluster #34
+['opening day_TIM17764186666029400', 'opening day_TIM17764186666029400', 'opening day_TIM17764186666029400', 'opening keynote_Singleton_ACTI_21_40_6ecbplus', 'today_TIM17764186666029400', 'today_TIM17764186666029400', 'today_TIM17764186666029400', 'Today_Singleton_TIME_9_40_6ecbplus', 'Monday morning_Singleton_TIME_31_40_6ecbplus']
+
+cluster #35
+['Intel Ivy Bridge chips_Singleton_NON__18_40_6ecbplus', 'quad - core chips_Singleton_NON__33_40_10ecbplus']
+
+cluster #36
+['slimmer_Singleton_ACTI_18_40_9ecbplus', 'slimmest_Singleton_ACTI_22_40_2ecbplus', 'lightest_Singleton_ACTI_26_40_8ecbplus', 'thinnest_Singleton_ACTI_25_40_8ecbplus']
+
+cluster #37
+['Retina Display_Singleton_NON__15_40_6ecbplus', 'camera_Singleton_NON__36_40_11ecbplus']
+
+cluster #38
+['keeping_Singleton_ACTI_24_40_2ecbplus', 'right_Singleton_ACTI_29_40_11ecbplus']
+
+cluster #39
+['MONDAY, JUNE 11TH, 2012 AT 10 : 49 AM_Singleton_TIME_3_40_8ecbplus', 'JUNE 11, 2012 AT 10 : 33 AM PT_Singleton_TIME_8_40_6ecbplus', 'June 11, 2012_Singleton_TIME_3_40_9ecbplus', 'June 12, 2012_Singleton_TIME_8_40_5ecbplus', 'June 11, 2012 10 : 24 AM PDT_Singleton_TIME_36_40_4ecbplus', 'June 11, 2012 at 12 : 36 PM ET_Singleton_TIME_10_40_11ecbplus', 'Jun 11th, 2012 at 1 : 23 PM_Singleton_TIME_32_40_1ecbplus']
+
+cluster #40
+['in San Francisco_LOC18089929016207027', 'the stage in San Francisco_LOC18089929016207027']
+
+cluster #41
+['have_Singleton_ACTI_26_40_9ecbplus', 'have_Singleton_ACTI_25_40_9ecbplus', 'internal flash storage_Singleton_NON__7_40_8ecbplus', 'storage_Singleton_NON__21_40_4ecbplus']
+
+cluster #42
+['cheaper_Singleton_ACTI_7_40_5ecbplus', 'sell_Singleton_ACTI_14_40_10ecbplus', 'prices_Singleton_ACTI_21_40_11ecbplus', 'costs_Singleton_ACTI_13_40_10ecbplus', 'higher_Singleton_ACTI_33_40_4ecbplus']
+
+cluster #43
+['stay_Singleton_ACTI_31_40_11ecbplus', 'stayed_Singleton_ACTI_28_40_10ecbplus', 'standby time_Singleton_ACTI_20_40_8ecbplus', 'standby_Singleton_ACTI_24_40_11ecbplus', 'battery life_Singleton_ACTI_13_40_4ecbplus', 'battery life_Singleton_ACTI_11_40_10ecbplus', 'battery life_Singleton_ACTI_19_40_8ecbplus', 'Battery life_Singleton_ACTI_23_40_11ecbplus']
+
+cluster #44
+['addition_Singleton_ACTI_12_40_5ecbplus', 'addition_Singleton_ACTI_18_40_2ecbplus', 'includes_Singleton_ACTI_10_40_4ecbplus', 'include_Singleton_ACTI_19_40_2ecbplus', 'inclusion_Singleton_ACTI_11_40_5ecbplus', 'boasts_Singleton_ACTI_10_40_10ecbplus']
+
+cluster #45
+['starts off_Singleton_ACTI_16_40_4ecbplus', 'starts_Singleton_ACTI_14_40_4ecbplus', 'this year_Singleton_TIME_36_40_7ecbplus', 'this year_Singleton_TIME_34_40_1ecbplus', 'this year_Singleton_TIME_16_40_3ecbplus']
+
+cluster #46
+['11 - inch_Singleton_NON__7_40_2ecbplus', '15 - inch_Singleton_NON__32_40_10ecbplus', '11 - inch_Singleton_NON__2_40_2ecbplus', '13 - inch_NON17838721446423775', '15 - inch_Singleton_NON__30_40_10ecbplus', '13 - inch_Singleton_NON__36_40_2ecbplus', '13 - inch_Singleton_NON__29_40_2ecbplus', '15 - inch_Singleton_NON__45_40_11ecbplus', '15 - inch options_Singleton_NON__20_40_4ecbplus', '15.4″ MacBook Pro_Singleton_NON__10_40_8ecbplus', '13_Singleton_NON__19_40_4ecbplus']
+
+cluster #47
+['conventional_Singleton_ACTI_19_40_7ecbplus', 'conventional_Singleton_ACTI_23_40_1ecbplus', 'design_Singleton_ACTI_35_40_7ecbplus', 'design_Singleton_ACTI_22_40_1ecbplus', 'design_Singleton_ACTI_6_40_10ecbplus']
+
+cluster #48
+['MacBook Pro_Singleton_NON__5_40_8ecbplus', 'MacBook Pro_Singleton_NON__17_40_6ecbplus', 'MacBook Pro_Singleton_NON__4_40_8ecbplus', 'Macbook Pro_Singleton_NON__8_40_9ecbplus', 'MacBook Pro_NON18090039996916429', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_Singleton_NON__40_40_4ecbplus', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON18090039996916429', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON18090039996916429', 'MacBook Pro_Singleton_NON__25_40_10ecbplus', 'MacBook Pro_Singleton_NON__31_40_7ecbplus', 'MacBook Pro_Singleton_NON__4_40_1ecbplus', 'MacBook Pro_Singleton_NON__11_40_8ecbplus', 'Next Generation Macbook Pro_Singleton_NON__12_40_9ecbplus', 'Next Generation Macbook Pro_Singleton_NON__6_40_9ecbplus', '15 - inch MacBook Pro_Singleton_NON__17_40_4ecbplus', '13 - inch MacBook Pro_Singleton_NON__31_40_10ecbplus', 'MacBook Pros_NON17764235788628565', 'MacBook Pros_NON17764218799960810', 'MacBook Pros_NON17764218799960810', 'MacBook Pro line_NON17764218799960810', 'MacBook Air_Singleton_NON__29_40_7ecbplus', 'MacBook Air_Singleton_NON__20_40_1ecbplus', 'Macbook Air_Singleton_NON__9_40_9ecbplus', 'MacBook Air_NON17837773451318042', 'MacBook Air_NON18089134250184836', 'MacBook Air_NON17837773451318042', 'MacBook Air_NON17837773451318042', 'Macbook Air_NON17837773451318042', 'Air_Singleton_NON__33_40_2ecbplus', 'MacBook Air_NON17837773451318042', 'MacBook Air line_NON17837773451318042', 'MacBook line_NON17764218799960810', 'Macbook Pro_NON17764235788628565', 'laptop_NON17764235788628565', 'Next Generation Macbook Pro_NON17764235788628565', 'MacBook Air lineup_NON17837773451318042', '15 - inch model_Singleton_NON__34_40_7ecbplus', '15 - inch model_Singleton_NON__15_40_1ecbplus', 'refresh_Singleton_ACTI_16_40_8ecbplus', '13 - inch option_Singleton_NON__18_40_4ecbplus', '15 - inch version_Singleton_NON__33_40_7ecbplus', '15 - inch version_Singleton_NON__17_40_1ecbplus', '13 - inch version_Singleton_NON__32_40_7ecbplus', '13 - inch version_Singleton_NON__16_40_1ecbplus', 'latest MacBook Pros_NON17764235788628565', 'latest_Singleton_ACTI_9_40_11ecbplus', 'MacBook Pros_NON17764235788628565', 'next generation of MacBook Pro_NON18090039996916429', 'next - generation_Singleton_ACTI_35_40_6ecbplus', 'it_NON17764218799960810', 'MacBook line_NON17764218799960810', 'MacBook Pro_NON17764235788628565', 'machine_NON17764235788628565', 'MacBook Pros_NON17764235788628565', 'notebook_NON17764235788628565', 'This_NON17764235788628565', 'variety_Singleton_ACTI_21_40_7ecbplus', 'new variety_Singleton_NON__18_40_1ecbplus', 'upgraded_Singleton_ACTI_14_40_7ecbplus', 'upgraded_Singleton_ACTI_14_40_1ecbplus', 'upgraded_Singleton_ACTI_16_40_10ecbplus', 'improved_Singleton_ACTI_21_40_5ecbplus', 'new_Singleton_ACTI_24_40_7ecbplus', 'new_Singleton_ACTI_18_40_3ecbplus', 'new_Singleton_ACTI_23_40_8ecbplus', 'New_Singleton_ACTI_6_40_6ecbplus', 'new_Singleton_ACTI_21_40_2ecbplus', 'new_Singleton_ACTI_34_40_6ecbplus', 'new_Singleton_ACTI_19_40_3ecbplus', 'new_Singleton_ACTI_20_40_7ecbplus', 'new_Singleton_ACTI_29_40_8ecbplus', 'new_Singleton_ACTI_23_40_7ecbplus', 'offered_Singleton_ACTI_15_40_10ecbplus', 'feature_Singleton_ACTI_18_40_8ecbplus', 'feature_Singleton_ACTI_17_40_8ecbplus', 'features_Singleton_ACTI_24_40_6ecbplus', 'tout_Singleton_ACTI_12_40_7ecbplus', 'tout_Singleton_ACTI_12_40_1ecbplus', '2.7GHz_Singleton_ACTI_33_40_6ecbplus', 'deliver_Singleton_ACTI_12_40_4ecbplus', 'Thunderbolt port_Singleton_NON__15_40_5ecbplus', 'same_Singleton_ACTI_21_40_9ecbplus', 'same_Singleton_ACTI_22_40_11ecbplus', 'same_Singleton_ACTI_27_40_10ecbplus', "Intel's 3rd - Generation Core (Ivy Bridge) processor_Singleton_NON__6_40_8ecbplus", 'Intel Ivy Bridge 2.7GHz_NON17764250260582633', 'overdue_Singleton_ACTI_7_40_6ecbplus', 'received_Singleton_ACTI_24_40_5ecbplus', 'given_Singleton_ACTI_27_40_6ecbplus', 'available_Singleton_ACTI_23_40_2ecbplus', 'going_Singleton_ACTI_15_40_7ecbplus', 'going_Singleton_ACTI_29_40_1ecbplus', 'go_Singleton_ACTI_15_40_4ecbplus', 'powers_Singleton_ACTI_24_40_9ecbplus', 'charge_Singleton_ACTI_25_40_11ecbplus', 'revolutionary_Singleton_NEG__24_40_10ecbplus']
+
+cluster #49
+['chosen_Singleton_ACTI_5_40_5ecbplus', 'opted_Singleton_ACTI_20_40_2ecbplus', 'announced_Singleton_ACTI_40_40_11ecbplus', 'it_Singleton_NON__29_40_6ecbplus', 'ask_Singleton_ACTI_13_40_7ecbplus', 'ask_Singleton_ACTI_13_40_1ecbplus', 'suggested_Singleton_ACTI_17_40_10ecbplus']
+
+cluster #50
+['laptops_Singleton_NON__4_40_2ecbplus', 'laptop_Singleton_NON__22_40_10ecbplus']
+
+cluster #51
+['existing_Singleton_ACTI_17_40_7ecbplus', 'existing_Singleton_ACTI_35_40_1ecbplus', 'newer_Singleton_ACTI_18_40_7ecbplus']
+
+cluster #52
+['768GB_Singleton_ACTI_27_40_8ecbplus', '500GB_Singleton_ACTI_32_40_4ecbplus', '16GB_Singleton_ACTI_28_40_8ecbplus']
+
+cluster #53
+['support_Singleton_ACTI_27_40_9ecbplus', 'RAM_Singleton_NON__8_40_8ecbplus', 'graphics processor_Singleton_NON__5_40_9ecbplus', 'running_Singleton_ACTI_25_40_6ecbplus', 'faster_Singleton_ACTI_32_40_6ecbplus', 'pace_Singleton_ACTI_17_40_2ecbplus']
+
+cluster #54
+['sounds_Singleton_ACTI_28_40_11ecbplus', 'intro_Singleton_ACTI_16_40_11ecbplus', 'stuff_Singleton_NON__6_40_11ecbplus']
+
+Topic - 40ecbplus
+cluster #1
+['10 : 27 am PDT, Jun 11th 2012_Singleton_TIME_1_40_10ecbplus']
+
+cluster #2
+['only_Singleton_NEG__23_40_10ecbplus']
+
+cluster #3
+['iOS 6_Singleton_NON__2_40_11ecbplus']
+
+cluster #4
+['welcome_Singleton_ACTI_14_40_11ecbplus']
+
+cluster #5
+['developers_Singleton_HUMA_12_40_11ecbplus']
+
+cluster #6
+['Siri_Singleton_NON__5_40_11ecbplus']
+
+cluster #7
+['720p_Singleton_ACTI_37_40_11ecbplus']
+
+cluster #8
+['competitors_Singleton_HUMA_26_40_2ecbplus']
+
+cluster #9
+['week_Singleton_TIME_28_40_5ecbplus']
+
+cluster #10
+['chief_Singleton_ACTI_22_40_5ecbplus']
+
+cluster #11
+['onboard memory_Singleton_NON__19_40_5ecbplus']
+
+cluster #12
+['Connectivity_Singleton_ACTI_9_40_5ecbplus']
+
+cluster #13
+['portions_Singleton_NON__11_40_6ecbplus']
+
+cluster #14
+['it_Singleton_NON__29_40_6ecbplus']
+
+cluster #15
+['tablet_Singleton_NON__31_40_8ecbplus']
+
+cluster #16
+['computer_Singleton_NON__32_40_8ecbplus']
+
+cluster #17
+['profile_Singleton_ACTI_19_40_9ecbplus']
+
+cluster #18
+['hardware_NON17764206852917641', 'hardware_NON17764206852917641', 'hardware_NON17764206852917641']
+
+cluster #19
+['up to 30 days_Singleton_TIME_21_40_8ecbplus', '30 days_Singleton_TIME_27_40_11ecbplus', '7 hours_Singleton_TIME_22_40_8ecbplus', '7 hours_Singleton_TIME_26_40_11ecbplus', '7 hours_Singleton_TIME_37_40_10ecbplus', 'seven hours_Singleton_TIME_34_40_4ecbplus']
+
+cluster #20
+['lineup_Singleton_NON__34_40_2ecbplus', 'lineup_Singleton_NON__20_40_10ecbplus']
+
+cluster #21
+['iPad_Singleton_NON__4_40_11ecbplus', 'iPhone_Singleton_NON__3_40_11ecbplus']
+
+cluster #22
+['upgrades_Singleton_ACTI_23_40_9ecbplus', 'upgrades_Singleton_ACTI_23_40_5ecbplus', 'upgrade_Singleton_ACTI_20_40_5ecbplus', 'spec upgrade_Singleton_ACTI_12_40_10ecbplus', 'boost_Singleton_ACTI_10_40_5ecbplus', 'boost_Singleton_ACTI_25_40_5ecbplus']
+
+cluster #23
+['line_Singleton_NON__41_40_4ecbplus', 'line_Singleton_NON__31_40_4ecbplus', 'line_Singleton_NON__5_40_2ecbplus', 'line_Singleton_ACTI_33_40_8ecbplus', 'blurs_Singleton_ACTI_14_40_8ecbplus']
+
+cluster #24
+['graphics_Singleton_ACTI_26_40_6ecbplus', 'integrated graphics_Singleton_NON__18_40_5ecbplus']
+
+cluster #25
+['i7 quad core Intel processor_Singleton_NON__11_40_9ecbplus', 'i5_Singleton_NON__10_40_9ecbplus', 'i7 2.7 GHz quad - core_Singleton_NON__9_40_8ecbplus']
+
+cluster #26
+['Geforce GT 650M graphics card_Singleton_NON__4_40_9ecbplus', 'Nvidia GeForce GT 650m graphics_Singleton_NON__36_40_10ecbplus', 'Nvidia GeForce GT650M graphics_Singleton_NON__28_40_4ecbplus', 'Nvidia GeForce GT650M graphics card_Singleton_NON__25_40_4ecbplus', 'GeForce graphics card_Singleton_NON__19_40_11ecbplus']
+
+cluster #27
+['sees_Singleton_ACTI_13_40_5ecbplus', 'gets_Singleton_ACTI_38_40_11ecbplus']
+
+cluster #28
+['Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'it_HUM17764075735414631', 'Apple_HUM17764075735414631', 'it_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'it_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'its_HUM17764075735414631', 'Apple_HUM17764075735414631', 'its_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', "Apple's_HUM17764075735414631", 'Apple_HUM17764075735414631', "Apple's_Singleton_HUMA_38_40_4ecbplus", 'Apple_HUM17764075735414631', "Apple's_HUM17764075735414631", "Apple's_HUM17764075735414631", "Apple's_HUM17764075735414631", 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_Singleton_HUMA_9_40_2ecbplus', 'Apple_Singleton_HUMA_11_40_2ecbplus', 'Apple_Singleton_HUMA_3_40_7ecbplus', "Apple's_HUM17764075735414631", 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', 'Apple_HUM17764075735414631', "Apple's_Singleton_HUMA_3_40_1ecbplus", 'it_Singleton_NON__28_40_6ecbplus', 'It_Singleton_NON__19_40_6ecbplus', 'it_Singleton_NON__34_40_11ecbplus', "Intel's_HUM17764318691647091", "Intel's_HUM17764318691647091", "Intel's_HUM17764318691647091"]
+
+cluster #29
+['USB 3.0_Singleton_NON__33_40_11ecbplus', 'USB 3.0_Singleton_NON__35_40_10ecbplus', 'USB 2.0_Singleton_NON__29_40_4ecbplus', 'USB 2 / USB 3 port_Singleton_NON__20_40_6ecbplus', 'USB 3.0_Singleton_NON__20_40_11ecbplus', 'USB 3.0 support_Singleton_NON__30_40_4ecbplus', 'USB 3.0 ports_Singleton_NON__30_40_7ecbplus', 'USB 3.0 ports_Singleton_NON__19_40_1ecbplus', 'USB 3.0 ports_Singleton_NON__6_40_2ecbplus', 'two USB 3.0 ports_Singleton_NON__14_40_5ecbplus', 'two USB ports_Singleton_NON__14_40_9ecbplus', '2.0_Singleton_NON__16_40_9ecbplus', '3.0_Singleton_NON__15_40_9ecbplus', '0.71 inches thick_Singleton_ACTI_20_40_9ecbplus']
+
+cluster #30
+['Phil Schiller_HUM18089813256581682', 'Phil Schiller_HUM18089813256581682', 'Phil Schiller_HUM18089813256581682', 'Apple CEO Tim Cook_HUM28688885136138789']
+
+cluster #31
+['Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge processors_NON17764260776630536', 'Ivy Bridge processors_Singleton_NON__17_40_5ecbplus', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge processors_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Ivy Bridge_NON17764250260582633', 'Sandy Bridge_Singleton_NON__16_40_5ecbplus']
+
+cluster #32
+['thickness_Singleton_ACTI_22_40_9ecbplus', 'thin_Singleton_ACTI_24_40_8ecbplus']
+
+cluster #33
+['opening day_TIM17764186666029400', 'opening day_TIM17764186666029400', 'opening day_TIM17764186666029400', 'opening keynote_Singleton_ACTI_21_40_6ecbplus', 'today_TIM17764186666029400', 'today_TIM17764186666029400', 'today_TIM17764186666029400', 'Today_Singleton_TIME_9_40_6ecbplus', 'Monday morning_Singleton_TIME_31_40_6ecbplus']
+
+cluster #34
+['comfortable_Singleton_ACTI_16_40_7ecbplus', 'comfortable_Singleton_ACTI_21_40_1ecbplus', "you're_Singleton_HUMA_22_40_7ecbplus", "you're_Singleton_HUMA_30_40_1ecbplus"]
+
+cluster #35
+['graphics processor_Singleton_NON__5_40_9ecbplus', 'running_Singleton_ACTI_25_40_6ecbplus', 'faster_Singleton_ACTI_32_40_6ecbplus', 'RAM_Singleton_NON__8_40_8ecbplus', 'internal flash storage_Singleton_NON__7_40_8ecbplus', 'storage_Singleton_NON__21_40_4ecbplus']
+
+cluster #36
+['Intel Ivy Bridge chips_Singleton_NON__18_40_6ecbplus', 'quad - core chips_Singleton_NON__33_40_10ecbplus']
+
+cluster #37
+['support_Singleton_ACTI_27_40_9ecbplus', 'revolutionary_Singleton_NEG__24_40_10ecbplus']
+
+cluster #38
+['slimmer_Singleton_ACTI_18_40_9ecbplus', 'slimmest_Singleton_ACTI_22_40_2ecbplus', 'lightest_Singleton_ACTI_26_40_8ecbplus', 'thinnest_Singleton_ACTI_25_40_8ecbplus']
+
+cluster #39
+['11 - inch_Singleton_NON__7_40_2ecbplus', '11 - inch_Singleton_NON__2_40_2ecbplus', '13 - inch_NON17838721446423775', '13 - inch_Singleton_NON__36_40_2ecbplus', '13 - inch_Singleton_NON__29_40_2ecbplus', '15 - inch_Singleton_NON__45_40_11ecbplus', '15 - inch_Singleton_NON__30_40_10ecbplus', '15 - inch_Singleton_NON__32_40_10ecbplus', '15 - inch options_Singleton_NON__20_40_4ecbplus', '15.4″ MacBook Pro_Singleton_NON__10_40_8ecbplus', '13_Singleton_NON__19_40_4ecbplus']
+
+cluster #40
+['Retina Display_Singleton_NON__15_40_6ecbplus', 'camera_Singleton_NON__36_40_11ecbplus']
+
+cluster #41
+['MONDAY, JUNE 11TH, 2012 AT 10 : 49 AM_Singleton_TIME_3_40_8ecbplus', 'JUNE 11, 2012 AT 10 : 33 AM PT_Singleton_TIME_8_40_6ecbplus', 'June 11, 2012_Singleton_TIME_3_40_9ecbplus', 'June 12, 2012_Singleton_TIME_8_40_5ecbplus', 'June 11, 2012 10 : 24 AM PDT_Singleton_TIME_36_40_4ecbplus', 'June 11, 2012 at 12 : 36 PM ET_Singleton_TIME_10_40_11ecbplus', 'Jun 11th, 2012 at 1 : 23 PM_Singleton_TIME_32_40_1ecbplus']
+
+cluster #42
+['in San Francisco_LOC18089929016207027', 'the stage in San Francisco_LOC18089929016207027']
+
+cluster #43
+['cheaper_Singleton_ACTI_7_40_5ecbplus', 'sell_Singleton_ACTI_14_40_10ecbplus', 'prices_Singleton_ACTI_21_40_11ecbplus', 'costs_Singleton_ACTI_13_40_10ecbplus', 'higher_Singleton_ACTI_33_40_4ecbplus']
+
+cluster #44
+['stay_Singleton_ACTI_31_40_11ecbplus', 'stayed_Singleton_ACTI_28_40_10ecbplus', 'standby time_Singleton_ACTI_20_40_8ecbplus', 'standby_Singleton_ACTI_24_40_11ecbplus', 'battery life_Singleton_ACTI_13_40_4ecbplus', 'battery life_Singleton_ACTI_11_40_10ecbplus', 'battery life_Singleton_ACTI_19_40_8ecbplus', 'Battery life_Singleton_ACTI_23_40_11ecbplus']
+
+cluster #45
+['keeping_Singleton_ACTI_24_40_2ecbplus', 'right_Singleton_ACTI_29_40_11ecbplus', 'pace_Singleton_ACTI_17_40_2ecbplus']
+
+cluster #46
+['starts off_Singleton_ACTI_16_40_4ecbplus', 'starts_Singleton_ACTI_14_40_4ecbplus', 'this year_Singleton_TIME_36_40_7ecbplus', 'this year_Singleton_TIME_34_40_1ecbplus', 'this year_Singleton_TIME_16_40_3ecbplus']
+
+cluster #47
+['conventional_Singleton_ACTI_19_40_7ecbplus', 'conventional_Singleton_ACTI_23_40_1ecbplus', 'design_Singleton_ACTI_35_40_7ecbplus', 'design_Singleton_ACTI_22_40_1ecbplus', 'design_Singleton_ACTI_6_40_10ecbplus']
+
+cluster #48
+['MacBook Pro_Singleton_NON__5_40_8ecbplus', 'MacBook Pro_Singleton_NON__17_40_6ecbplus', 'MacBook Pro_Singleton_NON__4_40_8ecbplus', 'Macbook Pro_Singleton_NON__8_40_9ecbplus', 'MacBook Pro_NON18090039996916429', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_Singleton_NON__40_40_4ecbplus', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON18090039996916429', 'MacBook Pro_NON17764235788628565', 'MacBook Pro_NON18090039996916429', 'MacBook Pro_Singleton_NON__25_40_10ecbplus', 'MacBook Pro_Singleton_NON__31_40_7ecbplus', 'MacBook Pro_Singleton_NON__4_40_1ecbplus', 'MacBook Pro_Singleton_NON__11_40_8ecbplus', 'Next Generation Macbook Pro_Singleton_NON__12_40_9ecbplus', 'Next Generation Macbook Pro_Singleton_NON__6_40_9ecbplus', '15 - inch MacBook Pro_Singleton_NON__17_40_4ecbplus', '13 - inch MacBook Pro_Singleton_NON__31_40_10ecbplus', 'MacBook Pros_NON17764235788628565', 'MacBook Pros_NON17764218799960810', 'MacBook Pros_NON17764218799960810', 'MacBook Pro line_NON17764218799960810', 'MacBook Air_Singleton_NON__29_40_7ecbplus', 'MacBook Air_Singleton_NON__20_40_1ecbplus', 'Macbook Air_Singleton_NON__9_40_9ecbplus', 'MacBook Air_NON17837773451318042', 'MacBook Air_NON18089134250184836', 'MacBook Air_NON17837773451318042', 'MacBook Air_NON17837773451318042', 'Macbook Air_NON17837773451318042', 'Air_Singleton_NON__33_40_2ecbplus', 'MacBook Air_NON17837773451318042', 'MacBook Air line_NON17837773451318042', 'MacBook line_NON17764218799960810', 'Macbook Pro_NON17764235788628565', 'laptop_NON17764235788628565', 'Next Generation Macbook Pro_NON17764235788628565', 'MacBook Air lineup_NON17837773451318042', '15 - inch model_Singleton_NON__34_40_7ecbplus', '15 - inch model_Singleton_NON__15_40_1ecbplus', 'refresh_Singleton_ACTI_16_40_8ecbplus', '13 - inch option_Singleton_NON__18_40_4ecbplus', '15 - inch version_Singleton_NON__33_40_7ecbplus', '15 - inch version_Singleton_NON__17_40_1ecbplus', '13 - inch version_Singleton_NON__32_40_7ecbplus', '13 - inch version_Singleton_NON__16_40_1ecbplus', 'latest MacBook Pros_NON17764235788628565', 'latest_Singleton_ACTI_9_40_11ecbplus', 'MacBook Pros_NON17764235788628565', 'next generation of MacBook Pro_NON18090039996916429', 'next - generation_Singleton_ACTI_35_40_6ecbplus', 'it_NON17764218799960810', 'MacBook line_NON17764218799960810', 'MacBook Pro_NON17764235788628565', 'machine_NON17764235788628565', 'MacBook Pros_NON17764235788628565', 'notebook_NON17764235788628565', 'This_NON17764235788628565', 'variety_Singleton_ACTI_21_40_7ecbplus', 'new variety_Singleton_NON__18_40_1ecbplus', 'upgraded_Singleton_ACTI_14_40_7ecbplus', 'upgraded_Singleton_ACTI_14_40_1ecbplus', 'upgraded_Singleton_ACTI_16_40_10ecbplus', 'improved_Singleton_ACTI_21_40_5ecbplus', 'new_Singleton_ACTI_24_40_7ecbplus', 'new_Singleton_ACTI_18_40_3ecbplus', 'new_Singleton_ACTI_23_40_8ecbplus', 'New_Singleton_ACTI_6_40_6ecbplus', 'new_Singleton_ACTI_21_40_2ecbplus', 'new_Singleton_ACTI_34_40_6ecbplus', 'new_Singleton_ACTI_19_40_3ecbplus', 'new_Singleton_ACTI_20_40_7ecbplus', 'new_Singleton_ACTI_29_40_8ecbplus', 'new_Singleton_ACTI_23_40_7ecbplus', 'offered_Singleton_ACTI_15_40_10ecbplus', 'feature_Singleton_ACTI_18_40_8ecbplus', 'feature_Singleton_ACTI_17_40_8ecbplus', 'features_Singleton_ACTI_24_40_6ecbplus', 'tout_Singleton_ACTI_12_40_7ecbplus', 'tout_Singleton_ACTI_12_40_1ecbplus', '2.7GHz_Singleton_ACTI_33_40_6ecbplus', 'deliver_Singleton_ACTI_12_40_4ecbplus', 'Thunderbolt port_Singleton_NON__15_40_5ecbplus', 'same_Singleton_ACTI_21_40_9ecbplus', 'same_Singleton_ACTI_22_40_11ecbplus', 'same_Singleton_ACTI_27_40_10ecbplus', "Intel's 3rd - Generation Core (Ivy Bridge) processor_Singleton_NON__6_40_8ecbplus", 'Intel Ivy Bridge 2.7GHz_NON17764250260582633', 'overdue_Singleton_ACTI_7_40_6ecbplus', 'received_Singleton_ACTI_24_40_5ecbplus', 'given_Singleton_ACTI_27_40_6ecbplus', 'available_Singleton_ACTI_23_40_2ecbplus', 'going_Singleton_ACTI_15_40_7ecbplus', 'going_Singleton_ACTI_29_40_1ecbplus', 'go_Singleton_ACTI_15_40_4ecbplus', 'powers_Singleton_ACTI_24_40_9ecbplus', 'charge_Singleton_ACTI_25_40_11ecbplus']
+
+cluster #49
+['chosen_Singleton_ACTI_5_40_5ecbplus', 'opted_Singleton_ACTI_20_40_2ecbplus', 'announced_Singleton_ACTI_40_40_11ecbplus', 'took_Singleton_ACTI_13_40_11ecbplus', 'ask_Singleton_ACTI_13_40_7ecbplus', 'ask_Singleton_ACTI_13_40_1ecbplus', 'suggested_Singleton_ACTI_17_40_10ecbplus']
+
+cluster #50
+['existing_Singleton_ACTI_17_40_7ecbplus', 'existing_Singleton_ACTI_35_40_1ecbplus', 'newer_Singleton_ACTI_18_40_7ecbplus']
+
+cluster #51
+['laptops_Singleton_NON__4_40_2ecbplus', 'laptop_Singleton_NON__22_40_10ecbplus']
+
+cluster #52
+['sounds_Singleton_ACTI_28_40_11ecbplus', 'intro_Singleton_ACTI_16_40_11ecbplus', 'stuff_Singleton_NON__6_40_11ecbplus']
+
+cluster #53
+['768GB_Singleton_ACTI_27_40_8ecbplus', '500GB_Singleton_ACTI_32_40_4ecbplus', '16GB_Singleton_ACTI_28_40_8ecbplus']
+
+cluster #54
+['addition_Singleton_ACTI_12_40_5ecbplus', 'addition_Singleton_ACTI_18_40_2ecbplus', 'includes_Singleton_ACTI_10_40_4ecbplus', 'include_Singleton_ACTI_19_40_2ecbplus', 'inclusion_Singleton_ACTI_11_40_5ecbplus', 'boasts_Singleton_ACTI_10_40_10ecbplus', 'have_Singleton_ACTI_26_40_9ecbplus', 'have_Singleton_ACTI_25_40_9ecbplus']
+
