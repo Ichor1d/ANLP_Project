@@ -4,7 +4,7 @@ from conll_reader import read_CoNLL
 from features.build_features import match_allen_srl_structures, load_elmo_embeddings
 from features.create_elmo_embeddings import ElmoEmbedding
 from mentionsfromjson import loadMentionsFromJson
-from run_eecdcr import test_model
+from run_eecdcr import test_model, run_conll_scorer
 from shared.CONSTANTS import CONFIG
 from srl_things import get_srl_data
 import time
@@ -74,7 +74,10 @@ if __name__ == '__main__':
     load_elmo_embeddings(corpus, elmo_embedder, set_pred_mentions=True)
 
     print(f"Begin test after {time.time() - start}")
-    test_model(corpus)
+    out_dir = test_model(corpus)
+
+    print(f"Begin run_conll_scorer after {time.time() - start}")
+    run_conll_scorer(out_dir)
 
     end = (time.time() - start)
     print(f"Done - Duration: {str(datetime.timedelta(seconds=end))}")

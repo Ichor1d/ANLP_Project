@@ -1,5 +1,6 @@
 import json
 import os.path
+import subprocess
 from datetime import datetime
 
 import torch
@@ -68,3 +69,71 @@ def test_model(corpus):
     _, _ = test_models(corpus, cd_event_model, cd_entity_model, device,
                        EECDCR_CONFIG_DICT, write_clusters=True, out_dir=output_dir,
                        doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
+    return output_dir
+
+
+def run_conll_scorer(out_dir):
+    if EECDCR_CONFIG_DICT["test_use_gold_mentions"]:
+        event_response_filename = os.path.join(out_dir, 'CD_test_event_mention_based.response_conll')
+        entity_response_filename = os.path.join(out_dir, 'CD_test_entity_mention_based.response_conll')
+    else:
+        event_response_filename = os.path.join(out_dir, 'CD_test_event_span_based.response_conll')
+        entity_response_filename = os.path.join(out_dir, 'CD_test_entity_span_based.response_conll')
+
+    event_conll_file = os.path.join(out_dir, 'event_scorer_cd_out.txt')
+    entity_conll_file = os.path.join(out_dir, 'entity_scorer_cd_out.txt')
+
+    event_scorer_command = (
+        'perl ./scorer/scorer.pl all {} {} none > {} \n'.format(EECDCR_CONFIG_DICT["event_gold_file_path"],
+                                                                event_response_filename,
+                                                                event_conll_file))
+
+    entity_scorer_command = (
+        'perl ./scorer/scorer.pl all {} {} none > {} \n'.format(EECDCR_CONFIG_DICT["entity_gold_file_path"],
+                                                                entity_response_filename,
+                                                                entity_conll_file))
+
+    processes = []
+    print('Run scorer command for cross-document event coreference')
+    processes.append(subprocess.Popen(event_scorer_command, shell=True))
+
+    print('Run scorer command for cross-document entity coreference')
+    processes.append(subprocess.Popen(entity_scorer_command, shell=True))
+
+    while processes:
+        status = processes[0].poll()
+        if status is not None:
+            processes.pop(0)
+
+    print('Running scorers has been done.')
+    print('Save results...')
+
+    scores_file = open(os.path.join(out_dir, 'conll_f1_scores.txt'), 'w')
+
+    event_f1 = read_conll_f1(event_conll_file)
+    entity_f1 = read_conll_f1(entity_conll_file)
+    scores_file.write('Event CoNLL F1: {}\n'.format(event_f1))
+    scores_file.write('Entity CoNLL F1: {}\n'.format(entity_f1))
+
+    scores_file.close()
+
+
+def read_conll_f1(filename):
+    """
+    This function reads the results of the CoNLL scorer , extracts the F1 measures of the MUS,
+    B-cubed and the CEAF-e and calculates CoNLL F1 score.
+    :param filename: a file stores the scorer's results.
+    :return: the CoNLL F1
+    """
+    f1_list = []
+    with open(filename, "r") as ins:
+        for line in ins:
+            new_line = line.strip()
+            if new_line.find('F1:') != -1:
+                f1_list.append(float(new_line.split(': ')[-1][:-1]))
+
+    muc_f1 = f1_list[1]
+    bcued_f1 = f1_list[3]
+    ceafe_f1 = f1_list[7]
+
+    return (muc_f1 + bcued_f1 + ceafe_f1) / float(3)

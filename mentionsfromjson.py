@@ -10,11 +10,12 @@ from tqdm import tqdm
 def _save_coref_mentions(mentions):
     coref_chain = 49999
     mention_dict = {}
-    for mention in tqdm(mentions, desc="Coref Mentions"):
-        if mention.gold_tag not in mention_dict:
-            mention_dict[mention.gold_tag] = [mention]
+    for mention in mentions:
+        key = f"{mention.doc_id}_{mention.gold_tag}"
+        if key not in mention_dict:
+            mention_dict[key] = [mention]
         else:
-            mention_dict[mention.gold_tag].append(mention)
+            mention_dict[key].append(mention)
 
     cand_list = []
     for key in mention_dict:
