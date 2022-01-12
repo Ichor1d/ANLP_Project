@@ -1,0 +1,879 @@
+Wrong mention - mention: delivered_OTH40780386817926072
+sent: The first jets will be delivered in 2014 .
+cluster: 
+mention: delivered_OTH41487797876060148
+sent: If had the sale gone through last year , the aircraft would have been delivered by 2011 .
+
+mention: delivered_OTH40780386817926072
+sent: The first jets will be delivered in 2014 .
+
+mention: delivered_OTH39740769611526334
+sent: The first A380 superjumbo , made by Airbus , was delivered today to Singapore Airlines ( SIA ) 18 months behind schedule .
+
+mention: delivered_OTH39740769611526334
+sent: First Airbus A380 delivered
+
+mention: delivered_OTH39740769611526334
+sent: After the plane was delivered in Singapore , it was flown to Toulouse , France for the ceremony of about 500 guests .
+
+------------------------------------------------------S
+Wrong mention - mention: negotiates_SPE40781849676060246
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+cluster: 
+mention: deal_OTH40182370070791372
+sent: The deal was announced during a large business forum that President Vladimir Putin had set up to showcase his country 's role in the international market .
+
+mention: deal_OTH40182370070791372
+sent: When asked whether the deal should be seen as a step towards a resolution of the rift between Russia and the US , Boeing Executive Vice President Scott Carson replied , `` It represents a business relationship between our Company and Aeroflot , and I' m really proud of it , '' .
+
+mention: deal_OTH40182370070791372
+sent: Aeroflot say that the deal does not affect plans to purchase new Airbuses at a later date for later delivery .
+
+mention: deal_OTH40182370070791372
+sent: It has been reported that the deal between Boeing and Aeroflot was revived after Boeing promised that technical assistance would be provided to Aeroflot for the new aircraft .
+
+mention: deal_OTH39905444115998914
+sent: The Air Canada deal includes firm orders for 18 777s and 14 of the new mid-size , long-range 787 Dreamliner .
+
+mention: deal_OTH40182370070791372
+sent: The deal was the centrepiece of the event .
+
+mention: deal_OTH40182370070791372
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: deal_OTH41484432694512569
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: agreement_OTH40182370070791372
+sent: The aircraft have a pre-modification catalogue value of US$ 3.5 billion , although neither of the companies involved would reveal the actual agreement reached between the two firms .
+
+mention: deals_OTH40007770120739365
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: negotiated_SPE40781849676060246
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: negotiates_SPE40781849676060246
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: proposal_OTH39586882618092159
+sent: Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .
+
+mention: plan_OTH40020512197435246
+sent: This imperils the Northrop Grumman and EADS North America plan to assemble the planes in Mobile , Alabama .
+
+------------------------------------------------------S
+Wrong mention - mention: fly_OTH40794167174620375
+sent: The minor accident occurred during push back , as the aircraft was leaving a parking space before it was due to fly to Chiang Mai International Airport .
+cluster: 
+mention: fly_OTH40794167174620375
+sent: The minor accident occurred during push back , as the aircraft was leaving a parking space before it was due to fly to Chiang Mai International Airport .
+
+mention: fly_OTH40004984807990885
+sent: They will be owned by AirTanker , who retains commercial leasing rights to five which can carry 290 passengers plus cargo , but will fly in RAF livery .
+
+------------------------------------------------------S
+Wrong mention - mention: enters_OTH39657508401482341
+sent: The A380 , known for many years during its development phase as the Airbus A3XX , will be the largest airliner in the world by a substantial margin when it enters service .
+cluster: 
+mention: entered_OTH40184121749809278
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: entered_OTH39585933414241522
+sent: Senator John McCain ( R-AZ ) entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .
+
+mention: entered_OTH39585933414241522
+sent: Emails exchanged among United States Air Force officials regarding a USD$ 23 billion dollar deal with aircraft manufacturer Boeing have been entered into the public record .
+
+mention: enters_OTH39657508401482341
+sent: The A380 , known for many years during its development phase as the Airbus A3XX , will be the largest airliner in the world by a substantial margin when it enters service .
+
+------------------------------------------------------S
+Wrong mention - mention: announced_SPE40085843660007045
+sent: Airbus have announced that they will be willing to contribute between $ 12 million and $ 20 million ( about US$ 16 million to $ 28 million ) to fund an extended search for the black boxes from Air France Flight 447 .
+cluster: 
+mention: announced_SPE40085843660007045
+sent: Airbus have announced that they will be willing to contribute between $ 12 million and $ 20 million ( about US$ 16 million to $ 28 million ) to fund an extended search for the black boxes from Air France Flight 447 .
+
+mention: announced_SPE40012577617384565
+sent: EADS had previously announced plans to shift much production to the US due to the current weakness of the dollar .
+
+mention: announced_SPE39751747741077496
+sent: In January 2005 , Boeing announced that it would cancel the 717 program after completing all outstanding orders .
+
+------------------------------------------------------S
+Wrong mention - mention: challenged_OTH40013104999803993
+sent: There is still a possibility of Boeing challenging the decision ; Boeing themselves were successfuly challenged by Lockheed and Sikorsky in 2006 over a US$ 10 billion contract to supply search and rescue helicopters to the Pentagon .
+cluster: 
+mention: challenged_OTH40018643816595782
+sent: When the Air Force selected Los Angeles based Northrop Grumman on February 29 to build the aircraft , Boeing challenged the award in a formal protest before the GAO , claiming the evaluation was skewed towards Northrop .
+
+mention: challenged_OTH40013104999803993
+sent: There is still a possibility of Boeing challenging the decision ; Boeing themselves were successfuly challenged by Lockheed and Sikorsky in 2006 over a US$ 10 billion contract to supply search and rescue helicopters to the Pentagon .
+
+------------------------------------------------------S
+Wrong mention - mention: deals_OTH40007770120739365
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+cluster: 
+mention: deal_OTH40182370070791372
+sent: The deal was announced during a large business forum that President Vladimir Putin had set up to showcase his country 's role in the international market .
+
+mention: deal_OTH40182370070791372
+sent: When asked whether the deal should be seen as a step towards a resolution of the rift between Russia and the US , Boeing Executive Vice President Scott Carson replied , `` It represents a business relationship between our Company and Aeroflot , and I' m really proud of it , '' .
+
+mention: deal_OTH40182370070791372
+sent: Aeroflot say that the deal does not affect plans to purchase new Airbuses at a later date for later delivery .
+
+mention: deal_OTH40182370070791372
+sent: It has been reported that the deal between Boeing and Aeroflot was revived after Boeing promised that technical assistance would be provided to Aeroflot for the new aircraft .
+
+mention: deal_OTH39905444115998914
+sent: The Air Canada deal includes firm orders for 18 777s and 14 of the new mid-size , long-range 787 Dreamliner .
+
+mention: deal_OTH40182370070791372
+sent: The deal was the centrepiece of the event .
+
+mention: deal_OTH40182370070791372
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: deal_OTH41484432694512569
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: agreement_OTH40182370070791372
+sent: The aircraft have a pre-modification catalogue value of US$ 3.5 billion , although neither of the companies involved would reveal the actual agreement reached between the two firms .
+
+mention: deals_OTH40007770120739365
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: negotiated_SPE40781849676060246
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: negotiates_SPE40781849676060246
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: proposal_OTH39586882618092159
+sent: Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .
+
+mention: plan_OTH40020512197435246
+sent: This imperils the Northrop Grumman and EADS North America plan to assemble the planes in Mobile , Alabama .
+
+------------------------------------------------------S
+Wrong mention - mention: deal_OTH41484432694512569
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+cluster: 
+mention: deal_OTH40182370070791372
+sent: The deal was announced during a large business forum that President Vladimir Putin had set up to showcase his country 's role in the international market .
+
+mention: deal_OTH40182370070791372
+sent: When asked whether the deal should be seen as a step towards a resolution of the rift between Russia and the US , Boeing Executive Vice President Scott Carson replied , `` It represents a business relationship between our Company and Aeroflot , and I' m really proud of it , '' .
+
+mention: deal_OTH40182370070791372
+sent: Aeroflot say that the deal does not affect plans to purchase new Airbuses at a later date for later delivery .
+
+mention: deal_OTH40182370070791372
+sent: It has been reported that the deal between Boeing and Aeroflot was revived after Boeing promised that technical assistance would be provided to Aeroflot for the new aircraft .
+
+mention: deal_OTH39905444115998914
+sent: The Air Canada deal includes firm orders for 18 777s and 14 of the new mid-size , long-range 787 Dreamliner .
+
+mention: deal_OTH40182370070791372
+sent: The deal was the centrepiece of the event .
+
+mention: deal_OTH40182370070791372
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: deal_OTH41484432694512569
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: agreement_OTH40182370070791372
+sent: The aircraft have a pre-modification catalogue value of US$ 3.5 billion , although neither of the companies involved would reveal the actual agreement reached between the two firms .
+
+mention: deals_OTH40007770120739365
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: negotiated_SPE40781849676060246
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: negotiates_SPE40781849676060246
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: proposal_OTH39586882618092159
+sent: Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .
+
+mention: plan_OTH40020512197435246
+sent: This imperils the Northrop Grumman and EADS North America plan to assemble the planes in Mobile , Alabama .
+
+------------------------------------------------------S
+Wrong mention - mention: deal_OTH39905444115998914
+sent: The Air Canada deal includes firm orders for 18 777s and 14 of the new mid-size , long-range 787 Dreamliner .
+cluster: 
+mention: deal_OTH40182370070791372
+sent: The deal was announced during a large business forum that President Vladimir Putin had set up to showcase his country 's role in the international market .
+
+mention: deal_OTH40182370070791372
+sent: When asked whether the deal should be seen as a step towards a resolution of the rift between Russia and the US , Boeing Executive Vice President Scott Carson replied , `` It represents a business relationship between our Company and Aeroflot , and I' m really proud of it , '' .
+
+mention: deal_OTH40182370070791372
+sent: Aeroflot say that the deal does not affect plans to purchase new Airbuses at a later date for later delivery .
+
+mention: deal_OTH40182370070791372
+sent: It has been reported that the deal between Boeing and Aeroflot was revived after Boeing promised that technical assistance would be provided to Aeroflot for the new aircraft .
+
+mention: deal_OTH39905444115998914
+sent: The Air Canada deal includes firm orders for 18 777s and 14 of the new mid-size , long-range 787 Dreamliner .
+
+mention: deal_OTH40182370070791372
+sent: The deal was the centrepiece of the event .
+
+mention: deal_OTH40182370070791372
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: deal_OTH41484432694512569
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: agreement_OTH40182370070791372
+sent: The aircraft have a pre-modification catalogue value of US$ 3.5 billion , although neither of the companies involved would reveal the actual agreement reached between the two firms .
+
+mention: deals_OTH40007770120739365
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: negotiated_SPE40781849676060246
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: negotiates_SPE40781849676060246
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: proposal_OTH39586882618092159
+sent: Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .
+
+mention: plan_OTH40020512197435246
+sent: This imperils the Northrop Grumman and EADS North America plan to assemble the planes in Mobile , Alabama .
+
+------------------------------------------------------S
+Wrong mention - mention: owned_OTH40005147025261087
+sent: They will be owned by AirTanker , who retains commercial leasing rights to five which can carry 290 passengers plus cargo , but will fly in RAF livery .
+cluster: 
+mention: built_OTH39909305919839605
+sent: The Boeing 777 is a family of long range widebody twin engine airliners built by Boeing Commercial Airplanes .
+
+mention: built_OTH39949727060932298
+sent: The plane is built with four Rolls-Royce Trent 900 engines .
+
+mention: owned_OTH40005147025261087
+sent: They will be owned by AirTanker , who retains commercial leasing rights to five which can carry 290 passengers plus cargo , but will fly in RAF livery .
+
+------------------------------------------------------S
+Wrong mention - mention: lease_OTH39586691437375297
+sent: Senator John McCain ( R-AZ ) entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .
+cluster: 
+mention: purchase_OTH40781010768184952
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: purchase_OTH40781010768184952
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: purchase_OTH39662748410351348
+sent: Irish low cost airline , Ryanair , announced today that it is exercising its options with Boeing to purchase five new 737 aircraft .
+
+mention: lease_OTH39586691437375297
+sent: Senator John McCain ( R-AZ ) entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .
+
+------------------------------------------------------S
+Wrong mention - mention: built_OTH39949727060932298
+sent: The plane is built with four Rolls-Royce Trent 900 engines .
+cluster: 
+mention: built_OTH39909305919839605
+sent: The Boeing 777 is a family of long range widebody twin engine airliners built by Boeing Commercial Airplanes .
+
+mention: built_OTH39949727060932298
+sent: The plane is built with four Rolls-Royce Trent 900 engines .
+
+mention: owned_OTH40005147025261087
+sent: They will be owned by AirTanker , who retains commercial leasing rights to five which can carry 290 passengers plus cargo , but will fly in RAF livery .
+
+------------------------------------------------------S
+Wrong mention - mention: manufacturers_OTH39588549667269490
+sent: Airbus manufacturers a number of passenger and military aircraft and has gained market share in passenger aircraft over Boeing in recent years .
+cluster: 
+mention: manufactured_OTH41490356421358484
+sent: The Dreamliner will be the first commercial jet to be manufactured mainly with carbon-fiber composites instead of the aluminium previously used .
+
+mention: manufacturers_OTH39588549667269490
+sent: Airbus manufacturers a number of passenger and military aircraft and has gained market share in passenger aircraft over Boeing in recent years .
+
+------------------------------------------------------S
+Wrong mention - mention: test flight_OTH40792549323746209
+arg0: its_223_PRO37154719263852456
+sent: Boeing 's newest commercial aircraft , the 787 `` Dreamliner '' , made its first test flight Tuesday in Everett , Washington at 18:00 UTC .
+cluster: 
+mention: flight_OTH39909780677225132
+sent: The first flight of the 777 was in 1994 .
+
+mention: flight_OTH39991217318385402
+sent: The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .
+
+mention: flight_OTH39991217318385402
+sent: The A380 will make a special charity flight on October 25 from Singapore to Sydney and will begin regular service on the Singapore-Sydney route on October 28 .
+
+mention: flight_OTH39987549735903805
+sent: It was a milestone in aviation history : the first Airbus A380 landed at Singapore 's Changi International Airport at 6:40 p.m. ( GMT +8 ) after a 12-hour flight from Airbus ' Delivery Center .
+
+mention: flight_OTH40792549323746209
+sent: Boeing 787 `` Dreamliner '' makes maiden flight
+
+mention: test flight_OTH40792549323746209
+arg0: its_223_PRO37154719263852456
+sent: Boeing 's newest commercial aircraft , the 787 `` Dreamliner '' , made its first test flight Tuesday in Everett , Washington at 18:00 UTC .
+
+mention: charity-flight_OTH39991217318385402
+sent: The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .
+
+------------------------------------------------------S
+Wrong mention - mention: replace_OTH40876724703376458
+sent: Such accusations have previously been leveled against Vice President Dick Cheney for a no-bid contract to Halliburton , and are now being made against senior Air Force officials for choosing Boeing to replace its tanker fleet .
+cluster: 
+mention: replace_OTH40876724703376458
+sent: Such accusations have previously been leveled against Vice President Dick Cheney for a no-bid contract to Halliburton , and are now being made against senior Air Force officials for choosing Boeing to replace its tanker fleet .
+
+mention: replace_OTH40005311992439132
+sent: They replace existing Lockheed Tristar and Vickers VC-10 aircraft .
+
+mention: replace_OTH40005311992439132
+sent: European Aeronautic Defence & Space NV ( EADS ) , the parent company of European airframer Airbus , has won a # 13 billion contract to supply the United Kingdom 's Royal Air Force ( RAF ) with aerial refueling tankers to replace the nation 's current ageing fleet .
+
+------------------------------------------------------S
+Wrong mention - mention: carrying_OTH40795614498790694
+sent: The plane left four hours after its scheduled 9:45 a.m. local time departure , carrying 150 passengers .
+cluster: 
+mention: carry_OTH39910139293336401
+sent: It will carry between 200 and 350 passengers depending on the seating configuration , and be more fuel-efficient than earlier airliners .
+
+mention: carrying_OTH40795614498790694
+sent: The plane left four hours after its scheduled 9:45 a.m. local time departure , carrying 150 passengers .
+
+------------------------------------------------------S
+Wrong mention - mention: plan_OTH40020512197435246
+sent: This imperils the Northrop Grumman and EADS North America plan to assemble the planes in Mobile , Alabama .
+cluster: 
+mention: deal_OTH40182370070791372
+sent: The deal was announced during a large business forum that President Vladimir Putin had set up to showcase his country 's role in the international market .
+
+mention: deal_OTH40182370070791372
+sent: When asked whether the deal should be seen as a step towards a resolution of the rift between Russia and the US , Boeing Executive Vice President Scott Carson replied , `` It represents a business relationship between our Company and Aeroflot , and I' m really proud of it , '' .
+
+mention: deal_OTH40182370070791372
+sent: Aeroflot say that the deal does not affect plans to purchase new Airbuses at a later date for later delivery .
+
+mention: deal_OTH40182370070791372
+sent: It has been reported that the deal between Boeing and Aeroflot was revived after Boeing promised that technical assistance would be provided to Aeroflot for the new aircraft .
+
+mention: deal_OTH39905444115998914
+sent: The Air Canada deal includes firm orders for 18 777s and 14 of the new mid-size , long-range 787 Dreamliner .
+
+mention: deal_OTH40182370070791372
+sent: The deal was the centrepiece of the event .
+
+mention: deal_OTH40182370070791372
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: deal_OTH41484432694512569
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: agreement_OTH40182370070791372
+sent: The aircraft have a pre-modification catalogue value of US$ 3.5 billion , although neither of the companies involved would reveal the actual agreement reached between the two firms .
+
+mention: deals_OTH40007770120739365
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: negotiated_SPE40781849676060246
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: negotiates_SPE40781849676060246
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: proposal_OTH39586882618092159
+sent: Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .
+
+mention: plan_OTH40020512197435246
+sent: This imperils the Northrop Grumman and EADS North America plan to assemble the planes in Mobile , Alabama .
+
+------------------------------------------------------S
+Wrong mention - mention: flaws_OTH40020420630600389
+sent: The Government Accountability Office on June 18 called for a re-run of the bidding for the U.S. Air Force $ 40 billion tanker contract , citing major flaws in the procurement process .
+cluster: 
+mention: shortcoming_OTH39588937127515145
+sent: I' m ready to tell the truth about Airbus 's boom , footprint , and financial shortcoming .
+
+mention: flaws_OTH40020420630600389
+sent: The Government Accountability Office on June 18 called for a re-run of the bidding for the U.S. Air Force $ 40 billion tanker contract , citing major flaws in the procurement process .
+
+------------------------------------------------------S
+Wrong mention - mention: announced_SPE40012577617384565
+sent: EADS had previously announced plans to shift much production to the US due to the current weakness of the dollar .
+cluster: 
+mention: announced_SPE40085843660007045
+sent: Airbus have announced that they will be willing to contribute between $ 12 million and $ 20 million ( about US$ 16 million to $ 28 million ) to fund an extended search for the black boxes from Air France Flight 447 .
+
+mention: announced_SPE40012577617384565
+sent: EADS had previously announced plans to shift much production to the US due to the current weakness of the dollar .
+
+mention: announced_SPE39751747741077496
+sent: In January 2005 , Boeing announced that it would cancel the 717 program after completing all outstanding orders .
+
+------------------------------------------------------S
+Wrong mention - mention: speech_SPE39587263435352274
+sent: Senator John McCain ( R-AZ ) entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .
+cluster: 
+mention: speech_SPE39988218337816338
+arg0: his_182_PER27573679404580314
+sent: In his speech , the Prime Minister applauded Singapore Airlines ( SIA ) - the recipient carrier - and cited its success as a source of pride for all Singaporeans .
+
+mention: speech_SPE39587263435352274
+sent: Senator John McCain ( R-AZ ) entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .
+
+------------------------------------------------------S
+Wrong mention - mention: flight_OTH40792549323746209
+sent: Boeing 787 `` Dreamliner '' makes maiden flight
+cluster: 
+mention: flight_OTH39909780677225132
+sent: The first flight of the 777 was in 1994 .
+
+mention: flight_OTH39991217318385402
+sent: The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .
+
+mention: flight_OTH39991217318385402
+sent: The A380 will make a special charity flight on October 25 from Singapore to Sydney and will begin regular service on the Singapore-Sydney route on October 28 .
+
+mention: flight_OTH39987549735903805
+sent: It was a milestone in aviation history : the first Airbus A380 landed at Singapore 's Changi International Airport at 6:40 p.m. ( GMT +8 ) after a 12-hour flight from Airbus ' Delivery Center .
+
+mention: flight_OTH40792549323746209
+sent: Boeing 787 `` Dreamliner '' makes maiden flight
+
+mention: test flight_OTH40792549323746209
+arg0: its_223_PRO37154719263852456
+sent: Boeing 's newest commercial aircraft , the 787 `` Dreamliner '' , made its first test flight Tuesday in Everett , Washington at 18:00 UTC .
+
+mention: charity-flight_OTH39991217318385402
+sent: The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .
+
+------------------------------------------------------S
+Wrong mention - mention: proposal_OTH39586882618092159
+sent: Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .
+cluster: 
+mention: deal_OTH40182370070791372
+sent: The deal was announced during a large business forum that President Vladimir Putin had set up to showcase his country 's role in the international market .
+
+mention: deal_OTH40182370070791372
+sent: When asked whether the deal should be seen as a step towards a resolution of the rift between Russia and the US , Boeing Executive Vice President Scott Carson replied , `` It represents a business relationship between our Company and Aeroflot , and I' m really proud of it , '' .
+
+mention: deal_OTH40182370070791372
+sent: Aeroflot say that the deal does not affect plans to purchase new Airbuses at a later date for later delivery .
+
+mention: deal_OTH40182370070791372
+sent: It has been reported that the deal between Boeing and Aeroflot was revived after Boeing promised that technical assistance would be provided to Aeroflot for the new aircraft .
+
+mention: deal_OTH39905444115998914
+sent: The Air Canada deal includes firm orders for 18 777s and 14 of the new mid-size , long-range 787 Dreamliner .
+
+mention: deal_OTH40182370070791372
+sent: The deal was the centrepiece of the event .
+
+mention: deal_OTH40182370070791372
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: deal_OTH41484432694512569
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: agreement_OTH40182370070791372
+sent: The aircraft have a pre-modification catalogue value of US$ 3.5 billion , although neither of the companies involved would reveal the actual agreement reached between the two firms .
+
+mention: deals_OTH40007770120739365
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: negotiated_SPE40781849676060246
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: negotiates_SPE40781849676060246
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: proposal_OTH39586882618092159
+sent: Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .
+
+mention: plan_OTH40020512197435246
+sent: This imperils the Northrop Grumman and EADS North America plan to assemble the planes in Mobile , Alabama .
+
+------------------------------------------------------S
+Wrong mention - mention: negotiated_SPE40781849676060246
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+cluster: 
+mention: deal_OTH40182370070791372
+sent: The deal was announced during a large business forum that President Vladimir Putin had set up to showcase his country 's role in the international market .
+
+mention: deal_OTH40182370070791372
+sent: When asked whether the deal should be seen as a step towards a resolution of the rift between Russia and the US , Boeing Executive Vice President Scott Carson replied , `` It represents a business relationship between our Company and Aeroflot , and I' m really proud of it , '' .
+
+mention: deal_OTH40182370070791372
+sent: Aeroflot say that the deal does not affect plans to purchase new Airbuses at a later date for later delivery .
+
+mention: deal_OTH40182370070791372
+sent: It has been reported that the deal between Boeing and Aeroflot was revived after Boeing promised that technical assistance would be provided to Aeroflot for the new aircraft .
+
+mention: deal_OTH39905444115998914
+sent: The Air Canada deal includes firm orders for 18 777s and 14 of the new mid-size , long-range 787 Dreamliner .
+
+mention: deal_OTH40182370070791372
+sent: The deal was the centrepiece of the event .
+
+mention: deal_OTH40182370070791372
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: deal_OTH41484432694512569
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: agreement_OTH40182370070791372
+sent: The aircraft have a pre-modification catalogue value of US$ 3.5 billion , although neither of the companies involved would reveal the actual agreement reached between the two firms .
+
+mention: deals_OTH40007770120739365
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: negotiated_SPE40781849676060246
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: negotiates_SPE40781849676060246
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: proposal_OTH39586882618092159
+sent: Congressional lawmakers rejected the proposal in October , although industry experts say the deal had been killed by the Pentagon because of reports stating that the deal had favored Boeing .
+
+mention: plan_OTH40020512197435246
+sent: This imperils the Northrop Grumman and EADS North America plan to assemble the planes in Mobile , Alabama .
+
+------------------------------------------------------S
+Wrong mention - mention: carry_OTH39910139293336401
+sent: It will carry between 200 and 350 passengers depending on the seating configuration , and be more fuel-efficient than earlier airliners .
+cluster: 
+mention: carry_OTH39910139293336401
+sent: It will carry between 200 and 350 passengers depending on the seating configuration , and be more fuel-efficient than earlier airliners .
+
+mention: carrying_OTH40795614498790694
+sent: The plane left four hours after its scheduled 9:45 a.m. local time departure , carrying 150 passengers .
+
+------------------------------------------------------S
+Wrong mention - mention: delivered_OTH41487797876060148
+sent: If had the sale gone through last year , the aircraft would have been delivered by 2011 .
+cluster: 
+mention: delivered_OTH41487797876060148
+sent: If had the sale gone through last year , the aircraft would have been delivered by 2011 .
+
+mention: delivered_OTH40780386817926072
+sent: The first jets will be delivered in 2014 .
+
+mention: delivered_OTH39740769611526334
+sent: The first A380 superjumbo , made by Airbus , was delivered today to Singapore Airlines ( SIA ) 18 months behind schedule .
+
+mention: delivered_OTH39740769611526334
+sent: First Airbus A380 delivered
+
+mention: delivered_OTH39740769611526334
+sent: After the plane was delivered in Singapore , it was flown to Toulouse , France for the ceremony of about 500 guests .
+
+------------------------------------------------------S
+Wrong mention - mention: manufactured_OTH41490356421358484
+sent: The Dreamliner will be the first commercial jet to be manufactured mainly with carbon-fiber composites instead of the aluminium previously used .
+cluster: 
+mention: manufactured_OTH41490356421358484
+sent: The Dreamliner will be the first commercial jet to be manufactured mainly with carbon-fiber composites instead of the aluminium previously used .
+
+mention: manufacturers_OTH39588549667269490
+sent: Airbus manufacturers a number of passenger and military aircraft and has gained market share in passenger aircraft over Boeing in recent years .
+
+------------------------------------------------------S
+Wrong mention - mention: flight_OTH39909780677225132
+sent: The first flight of the 777 was in 1994 .
+cluster: 
+mention: flight_OTH39909780677225132
+sent: The first flight of the 777 was in 1994 .
+
+mention: flight_OTH39991217318385402
+sent: The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .
+
+mention: flight_OTH39991217318385402
+sent: The A380 will make a special charity flight on October 25 from Singapore to Sydney and will begin regular service on the Singapore-Sydney route on October 28 .
+
+mention: flight_OTH39987549735903805
+sent: It was a milestone in aviation history : the first Airbus A380 landed at Singapore 's Changi International Airport at 6:40 p.m. ( GMT +8 ) after a 12-hour flight from Airbus ' Delivery Center .
+
+mention: flight_OTH40792549323746209
+sent: Boeing 787 `` Dreamliner '' makes maiden flight
+
+mention: test flight_OTH40792549323746209
+arg0: its_223_PRO37154719263852456
+sent: Boeing 's newest commercial aircraft , the 787 `` Dreamliner '' , made its first test flight Tuesday in Everett , Washington at 18:00 UTC .
+
+mention: charity-flight_OTH39991217318385402
+sent: The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .
+
+------------------------------------------------------S
+Wrong mention - mention: signed_OTH40005672052981865
+sent: AirTanker Ltd. , an EADS-led consortium , have signed a 27-year contract with the Defense Ministry to supply 14 new Airbus A330-200 passenger airliner converted for the task .
+cluster: 
+mention: signed_OTH39761054022441933
+sent: The USAF and Boeing have signed an interim agreement to protect the Air Force 's interests .
+
+mention: signed_OTH40005672052981865
+sent: AirTanker Ltd. , an EADS-led consortium , have signed a 27-year contract with the Defense Ministry to supply 14 new Airbus A330-200 passenger airliner converted for the task .
+
+mention: inked_OTH40007599217471569
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: rerun_OTH40078665656701307
+sent: Government Accountability Office requests rerun of US Air Force tanker bid
+
+------------------------------------------------------S
+Wrong mention - mention: claiming_SPE40079402955413370
+sent: When the Air Force selected Los Angeles based Northrop Grumman on February 29 to build the aircraft , Boeing challenged the award in a formal protest before the GAO , claiming the evaluation was skewed towards Northrop .
+cluster: 
+mention: claims_SPE40097094226693104
+sent: Boeing claims that the new 290 + seat wide-body , twin engine jetliner is more fuel efficient than previous Boeing models .
+
+mention: claiming_SPE40079402955413370
+sent: When the Air Force selected Los Angeles based Northrop Grumman on February 29 to build the aircraft , Boeing challenged the award in a formal protest before the GAO , claiming the evaluation was skewed towards Northrop .
+
+------------------------------------------------------S
+Wrong mention - mention: announced_SPE39751747741077496
+sent: In January 2005 , Boeing announced that it would cancel the 717 program after completing all outstanding orders .
+cluster: 
+mention: announced_SPE40085843660007045
+sent: Airbus have announced that they will be willing to contribute between $ 12 million and $ 20 million ( about US$ 16 million to $ 28 million ) to fund an extended search for the black boxes from Air France Flight 447 .
+
+mention: announced_SPE40012577617384565
+sent: EADS had previously announced plans to shift much production to the US due to the current weakness of the dollar .
+
+mention: announced_SPE39751747741077496
+sent: In January 2005 , Boeing announced that it would cancel the 717 program after completing all outstanding orders .
+
+------------------------------------------------------S
+Wrong mention - mention: claims_SPE40097094226693104
+sent: Boeing claims that the new 290 + seat wide-body , twin engine jetliner is more fuel efficient than previous Boeing models .
+cluster: 
+mention: claims_SPE40097094226693104
+sent: Boeing claims that the new 290 + seat wide-body , twin engine jetliner is more fuel efficient than previous Boeing models .
+
+mention: claiming_SPE40079402955413370
+sent: When the Air Force selected Los Angeles based Northrop Grumman on February 29 to build the aircraft , Boeing challenged the award in a formal protest before the GAO , claiming the evaluation was skewed towards Northrop .
+
+------------------------------------------------------S
+Wrong mention - mention: entered_OTH40184121749809278
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+cluster: 
+mention: entered_OTH40184121749809278
+sent: More recently , Boeing has entered into an agreement with Russian manufacturer Sukhoi for worldwide marketing and after-sales support for their regional aircraft , the Superjet , and have reached a deal with Kremlin-owned Unified Aircraft for general co-operation .
+
+mention: entered_OTH39585933414241522
+sent: Senator John McCain ( R-AZ ) entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .
+
+mention: entered_OTH39585933414241522
+sent: Emails exchanged among United States Air Force officials regarding a USD$ 23 billion dollar deal with aircraft manufacturer Boeing have been entered into the public record .
+
+mention: enters_OTH39657508401482341
+sent: The A380 , known for many years during its development phase as the Airbus A3XX , will be the largest airliner in the world by a substantial margin when it enters service .
+
+------------------------------------------------------S
+Wrong mention - mention: signed_OTH39761054022441933
+sent: The USAF and Boeing have signed an interim agreement to protect the Air Force 's interests .
+cluster: 
+mention: signed_OTH39761054022441933
+sent: The USAF and Boeing have signed an interim agreement to protect the Air Force 's interests .
+
+mention: signed_OTH40005672052981865
+sent: AirTanker Ltd. , an EADS-led consortium , have signed a 27-year contract with the Defense Ministry to supply 14 new Airbus A330-200 passenger airliner converted for the task .
+
+mention: inked_OTH40007599217471569
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: rerun_OTH40078665656701307
+sent: Government Accountability Office requests rerun of US Air Force tanker bid
+
+------------------------------------------------------S
+Wrong mention - mention: challenged_OTH40018643816595782
+sent: When the Air Force selected Los Angeles based Northrop Grumman on February 29 to build the aircraft , Boeing challenged the award in a formal protest before the GAO , claiming the evaluation was skewed towards Northrop .
+cluster: 
+mention: challenged_OTH40018643816595782
+sent: When the Air Force selected Los Angeles based Northrop Grumman on February 29 to build the aircraft , Boeing challenged the award in a formal protest before the GAO , claiming the evaluation was skewed towards Northrop .
+
+mention: challenged_OTH40013104999803993
+sent: There is still a possibility of Boeing challenging the decision ; Boeing themselves were successfuly challenged by Lockheed and Sikorsky in 2006 over a US$ 10 billion contract to supply search and rescue helicopters to the Pentagon .
+
+------------------------------------------------------S
+Wrong mention - mention: shortcoming_OTH39588937127515145
+sent: I' m ready to tell the truth about Airbus 's boom , footprint , and financial shortcoming .
+cluster: 
+mention: shortcoming_OTH39588937127515145
+sent: I' m ready to tell the truth about Airbus 's boom , footprint , and financial shortcoming .
+
+mention: flaws_OTH40020420630600389
+sent: The Government Accountability Office on June 18 called for a re-run of the bidding for the U.S. Air Force $ 40 billion tanker contract , citing major flaws in the procurement process .
+
+------------------------------------------------------S
+Wrong mention - mention: built_OTH39909305919839605
+sent: The Boeing 777 is a family of long range widebody twin engine airliners built by Boeing Commercial Airplanes .
+cluster: 
+mention: built_OTH39909305919839605
+sent: The Boeing 777 is a family of long range widebody twin engine airliners built by Boeing Commercial Airplanes .
+
+mention: built_OTH39949727060932298
+sent: The plane is built with four Rolls-Royce Trent 900 engines .
+
+mention: owned_OTH40005147025261087
+sent: They will be owned by AirTanker , who retains commercial leasing rights to five which can carry 290 passengers plus cargo , but will fly in RAF livery .
+
+------------------------------------------------------S
+Wrong mention - mention: fly_OTH40004984807990885
+sent: They will be owned by AirTanker , who retains commercial leasing rights to five which can carry 290 passengers plus cargo , but will fly in RAF livery .
+cluster: 
+mention: fly_OTH40794167174620375
+sent: The minor accident occurred during push back , as the aircraft was leaving a parking space before it was due to fly to Chiang Mai International Airport .
+
+mention: fly_OTH40004984807990885
+sent: They will be owned by AirTanker , who retains commercial leasing rights to five which can carry 290 passengers plus cargo , but will fly in RAF livery .
+
+------------------------------------------------------S
+Wrong mention - mention: rerun_OTH40078665656701307
+sent: Government Accountability Office requests rerun of US Air Force tanker bid
+cluster: 
+mention: signed_OTH39761054022441933
+sent: The USAF and Boeing have signed an interim agreement to protect the Air Force 's interests .
+
+mention: signed_OTH40005672052981865
+sent: AirTanker Ltd. , an EADS-led consortium , have signed a 27-year contract with the Defense Ministry to supply 14 new Airbus A330-200 passenger airliner converted for the task .
+
+mention: inked_OTH40007599217471569
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: rerun_OTH40078665656701307
+sent: Government Accountability Office requests rerun of US Air Force tanker bid
+
+------------------------------------------------------S
+Wrong mention - mention: negotiations_SPE41486960984781382
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+cluster: 
+mention: negotiations_SPE41486960984781382
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: negotiations_SPE39587543053194978
+sent: The original negotiations with Boeing were over a no-bid contract .
+
+mention: discussions_OTH39585474200241676
+sent: Internal emails expose Boeing-Air Force contract discussions
+
+------------------------------------------------------S
+Wrong mention - mention: speech_SPE39988218337816338
+arg0: his_182_PER27573679404580314
+sent: In his speech , the Prime Minister applauded Singapore Airlines ( SIA ) - the recipient carrier - and cited its success as a source of pride for all Singaporeans .
+cluster: 
+mention: speech_SPE39988218337816338
+arg0: his_182_PER27573679404580314
+sent: In his speech , the Prime Minister applauded Singapore Airlines ( SIA ) - the recipient carrier - and cited its success as a source of pride for all Singaporeans .
+
+mention: speech_SPE39587263435352274
+sent: Senator John McCain ( R-AZ ) entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .
+
+------------------------------------------------------S
+Wrong mention - mention: flown_OTH39986415267459317
+sent: After the plane was delivered in Singapore , it was flown to Toulouse , France for the ceremony of about 500 guests .
+cluster: 
+mention: flew_OTH39656489704316456
+sent: The aircraft flew into clear blue skies with a flight crew of six ( all wearing parachutes as a safety precaution ) and twenty tonnes of test equipment on board .
+
+mention: flown_OTH39986415267459317
+sent: After the plane was delivered in Singapore , it was flown to Toulouse , France for the ceremony of about 500 guests .
+
+mention: flying_OTH39656489704316456
+sent: The test flight lasted four hours , with the aircraft flying no higher than 10,000 nor further than 100 miles from Toulouse as it circled the Bay of Biscay .
+
+------------------------------------------------------S
+Wrong mention - mention: negotiations_SPE39587543053194978
+sent: The original negotiations with Boeing were over a no-bid contract .
+cluster: 
+mention: negotiations_SPE41486960984781382
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: negotiations_SPE39587543053194978
+sent: The original negotiations with Boeing were over a no-bid contract .
+
+mention: discussions_OTH39585474200241676
+sent: Internal emails expose Boeing-Air Force contract discussions
+
+------------------------------------------------------S
+Wrong mention - mention: purchase_OTH39662748410351348
+sent: Irish low cost airline , Ryanair , announced today that it is exercising its options with Boeing to purchase five new 737 aircraft .
+cluster: 
+mention: purchase_OTH40781010768184952
+sent: Russian flag carrier Aeroflot has negotiated the purchase of 22 new Boeing 787 Dreamliners , an aircraft Boeing currently has under development .
+
+mention: purchase_OTH40781010768184952
+sent: Aeroflot negotiates purchase of 22 new Boeing 787 Dreamliner aircraft
+
+mention: purchase_OTH39662748410351348
+sent: Irish low cost airline , Ryanair , announced today that it is exercising its options with Boeing to purchase five new 737 aircraft .
+
+mention: lease_OTH39586691437375297
+sent: Senator John McCain ( R-AZ ) entered them into the Congressional Record during a speech last week against the now-cancelled deal to lease 100 mid-air tanker aircraft from Boeing .
+
+------------------------------------------------------S
+Wrong mention - mention: flight_OTH39987549735903805
+sent: It was a milestone in aviation history : the first Airbus A380 landed at Singapore 's Changi International Airport at 6:40 p.m. ( GMT +8 ) after a 12-hour flight from Airbus ' Delivery Center .
+cluster: 
+mention: flight_OTH39909780677225132
+sent: The first flight of the 777 was in 1994 .
+
+mention: flight_OTH39991217318385402
+sent: The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .
+
+mention: flight_OTH39991217318385402
+sent: The A380 will make a special charity flight on October 25 from Singapore to Sydney and will begin regular service on the Singapore-Sydney route on October 28 .
+
+mention: flight_OTH39987549735903805
+sent: It was a milestone in aviation history : the first Airbus A380 landed at Singapore 's Changi International Airport at 6:40 p.m. ( GMT +8 ) after a 12-hour flight from Airbus ' Delivery Center .
+
+mention: flight_OTH40792549323746209
+sent: Boeing 787 `` Dreamliner '' makes maiden flight
+
+mention: test flight_OTH40792549323746209
+arg0: its_223_PRO37154719263852456
+sent: Boeing 's newest commercial aircraft , the 787 `` Dreamliner '' , made its first test flight Tuesday in Everett , Washington at 18:00 UTC .
+
+mention: charity-flight_OTH39991217318385402
+sent: The first flight will take off for a `` special charity-flight '' from Singapore and land in Sydney on October 25 .
+
+------------------------------------------------------S
+Wrong mention - mention: discussions_OTH39585474200241676
+sent: Internal emails expose Boeing-Air Force contract discussions
+cluster: 
+mention: negotiations_SPE41486960984781382
+sent: The sale is the result of a deal begun between Aeroflot and Chicago-based Boeing last year , but negotiations had stalled due to worsening relations between the US and Russia .
+
+mention: negotiations_SPE39587543053194978
+sent: The original negotiations with Boeing were over a no-bid contract .
+
+mention: discussions_OTH39585474200241676
+sent: Internal emails expose Boeing-Air Force contract discussions
+
+------------------------------------------------------S
+Wrong mention - mention: inked_OTH40007599217471569
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+cluster: 
+mention: signed_OTH39761054022441933
+sent: The USAF and Boeing have signed an interim agreement to protect the Air Force 's interests .
+
+mention: signed_OTH40005672052981865
+sent: AirTanker Ltd. , an EADS-led consortium , have signed a 27-year contract with the Defense Ministry to supply 14 new Airbus A330-200 passenger airliner converted for the task .
+
+mention: inked_OTH40007599217471569
+sent: Airbus has also inked recent deals with the Royal Australian Air Force , the Royal Saudi Air Force and the UAE Air Force .
+
+mention: rerun_OTH40078665656701307
+sent: Government Accountability Office requests rerun of US Air Force tanker bid
+
+------------------------------------------------------S

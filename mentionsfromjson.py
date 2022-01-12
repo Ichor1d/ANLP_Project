@@ -36,7 +36,7 @@ def _save_coref_mentions(mentions):
             })
 
     with open(EECDCR_CONFIG_DICT["wd_entity_coref_file"], "w") as f:
-        json.dump(cand_list, f)
+        json.dump(cand_list, f, indent=3)
 
 
 def _attachMentionToCorpus(mention, corpus: Corpus, is_event):

@@ -1,11 +1,13 @@
 import datetime
+import os
 
 from conll_reader import read_CoNLL
+from gold_file_creator import create_event_gold_file, create_entity_gold_file
 from features.build_features import match_allen_srl_structures, load_elmo_embeddings
 from features.create_elmo_embeddings import ElmoEmbedding
 from mentionsfromjson import loadMentionsFromJson
 from run_eecdcr import test_model, run_conll_scorer
-from shared.CONSTANTS import CONFIG
+from shared.CONSTANTS import CONFIG, EECDCR_CONFIG_DICT
 from srl_things import get_srl_data
 import time
 
@@ -74,9 +76,14 @@ if __name__ == '__main__':
     load_elmo_embeddings(corpus, elmo_embedder, set_pred_mentions=True)
 
     print(f"Begin test after {time.time() - start}")
-    out_dir = test_model(corpus)
+    out_dir, all_entity_clusters, all_event_clusters = test_model(corpus)
 
     print(f"Begin run_conll_scorer after {time.time() - start}")
+    if not os.path.exists(EECDCR_CONFIG_DICT["event_gold_file_path"]):
+        create_event_gold_file()
+    if not os.path.exists(EECDCR_CONFIG_DICT['entity_gold_file_path']):
+        create_entity_gold_file()
+
     run_conll_scorer(out_dir)
 
     end = (time.time() - start)

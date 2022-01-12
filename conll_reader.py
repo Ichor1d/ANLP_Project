@@ -62,6 +62,8 @@ def read_CoNLL(topic_level=False, specific_document="") -> Corpus:
         document_name = topic_and_document.split("/")[1]
         if dataset_name == "ECB+":
             document_name = topic_name.replace("ecb", f"_{document_name}ecb")
+        if dataset_name == "MEANTime":
+            topic_name = meantimeNameConverter[topic_name]
 
         sentence_id = split_line[1]
         # if we start a new sentence add the old sentence to the document
@@ -87,17 +89,18 @@ def read_CoNLL(topic_level=False, specific_document="") -> Corpus:
         # if a new topic starts (name of the topic changes)
         if topic_name != prev_topic_id:
             if prev_topic_id != "":
-                if dataset_name == "MEANTime":
-                    prev_topic_id = f"{number_of_seen_topics}MEANTIMEcross"
-                    number_of_seen_topics += 1
+                # if dataset_name == "MEANTime":
+                #     # prev_topic_id = f"{number_of_seen_topics}MEANTIMEcross"
+                #     prev_topic_id = meantimeNameConverter[topic_name]
+                #     number_of_seen_topics += 1
                 corpus.add_topic(prev_topic_id, topic)
             topic = Topic(topic_name)
             prev_topic_id = topic_name
 
     # after we run through all the data we just save the last topic.
     if prev_topic_id not in corpus.topics:
-        if dataset_name == "MEANTime":
-            topic_name = f"{number_of_seen_topics}MEANTIMEcross"
+        # if dataset_name == "MEANTime":
+        #     topic_name = meantimeNameConverter[topic_name]  # f"{number_of_seen_topics}MEANTIMEcross"
         topic.add_doc(document_name, document)
         corpus.add_topic(topic_name, topic)
 

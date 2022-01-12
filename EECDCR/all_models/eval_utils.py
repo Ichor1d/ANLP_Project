@@ -4,6 +4,8 @@ import logging
 import operator
 import collections
 
+from shared.CONSTANTS import CONFIG
+
 written_mentions = 0
 cd_clusters_count = 10000
 wd_clusters_count = 10
@@ -160,7 +162,7 @@ def write_mention_based_cd_clusters(corpus, is_event, is_gold,out_file):
         else:
             ecb_topics[topic_id] = topic
 
-    generic = 'ECB+/ecbplus_all'
+    generic = f'CDCR/{CONFIG["dataset_name"]}'
     out_coref.write("#begin document (" + generic + "); part 000" + '\n')
     topic_keys = sorted(ecb_topics.keys()) + sorted(ecbplus_topics.keys())
 
@@ -241,7 +243,8 @@ def write_mention_based_wd_clusters(corpus, is_event, is_gold, out_file):
                         next_doc_increment += doc_increment
                         doc_names_to_new_coref_id[mention.doc_id] = next_doc_increment
 
-                    # TODO: delete the if / else Statement. And check why this happens in some cases with MEANTime.
+                    # If a coref_chain is - the mention is not in any cluster (unresolved.)
+                    # According to Ms. Zhukova this can happen, so it will be ignored.
                     if coref_chain != "-":
                         coref_chain += doc_names_to_new_coref_id[mention.doc_id]
                     else:

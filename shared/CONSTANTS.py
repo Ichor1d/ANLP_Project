@@ -15,9 +15,13 @@ mentions_path = {
 
 meantimeNameConverter = {
     '1MEANTIMEcross': 'corpus_airbus',
+    'corpus_airbus': '1MEANTIMEcross',
     '2MEANTIMEcross': 'corpus_apple',
+    'corpus_apple': '2MEANTIMEcross',
     '3MEANTIMEcross': 'corpus_gm',
-    '4MEANTIMEcross': 'corpus_stock'
+    'corpus_gm': '3MEANTIMEcross',
+    '4MEANTIMEcross': 'corpus_stock',
+    'corpus_stock': '4MEANTIMEcross'
 }
 
 CONFIG = {
@@ -27,7 +31,7 @@ CONFIG = {
     'bert_file': 'resources/word_vector_models/BERT_SRL/bert-base-srl-2019.06.17.tar.gz',
     'elmo_options_file': 'resources/word_vector_models/ELMO_Original_55B/elmo_2x4096_512_2048cnn_2xhighway_5.5B_options.json',
     'elmo_weight_file': 'resources/word_vector_models/ELMO_Original_55B/elmo_2x4096_512_2048cnn_2xhighway_5.5B_weights.hdf5',
-    'use_dep': True
+    'use_dep': False
 }
 
 EECDCR_CONFIG_DICT = {
@@ -54,6 +58,8 @@ EECDCR_CONFIG_DICT = {
     "seed": 1,
     "random_seed": 2048,
 
-    "event_gold_file_path": "data/gold/cybulska_gold/CD_test_event_mention_based.key_conll",
-    "entity_gold_file_path": "data/gold/cybulska_gold/CD_test_entity_mention_based.key_conll"
+    "event_gold_file_path": f"data/gold/{CONFIG['dataset_name']}/own_event_mention_based.key_conll",
+    # "event_gold_file_path": "data/gold/cybulska_gold/CD_test_event_mention_based.key_conll",
+    "entity_gold_file_path": f"data/gold/{CONFIG['dataset_name']}/own_entity_mention_based.key_conll"
+    # "entity_gold_file_path": "data/gold/cybulska_gold/CD_test_entity_mention_based.key_conll"
 }

@@ -16,6 +16,7 @@ import matplotlib.pyplot as plt
 from spacy.lang.en import English
 from tqdm import tqdm
 
+from shared.CONSTANTS import CONFIG
 from shared.classes import *
 
 clusters_count = 1
@@ -1661,7 +1662,7 @@ def test_models(test_set, cd_event_model,cd_entity_model, device,
         save_mention_representations(all_entity_clusters, out_dir, is_event=False)
 
         # Save topics for analysis
-        with open(os.path.join(out_dir,'test_topics'), 'wb') as f:
+        with open(os.path.join(out_dir, 'test_topics'), 'wb') as f:
             cPickle.dump(topics, f)
 
     if config_dict["test_use_gold_mentions"]:
@@ -1670,11 +1671,32 @@ def test_models(test_set, cd_event_model,cd_entity_model, device,
         true_clusters_set = set(true_labels)
 
         labels_mapping = {}
+        """
+        e.g. for ECB+:
+            Since true_clusters_set is a set, each label appears only once.
+            The next for-loop assigns each label an integer, first label gets 0, second 1, and so forth.
+        """
         for label in true_clusters_set:
             labels_mapping[label] = len(labels_mapping)
 
+        """
+        e.g. for ECB+:
+            event_gold_lst = [1, 32, 263, 1, 165, ...], event_gold_lst.length = 1590
+            event_mentions.length = 1590
+        """
         event_gold_lst = [labels_mapping[label] for label in true_labels]
         event_r, event_p, event_b3_f1 = bcubed(event_gold_lst, event_predicted_lst)
+
+        event_true_labels_str = f"#begin document (CDCR/{CONFIG['dataset_name']}); part 000\n"
+        for pred in event_gold_lst:
+            event_true_labels_str += f"CDCR/{CONFIG['dataset_name']}\t({pred})\n"
+        event_true_labels_str += "#end document\n"
+
+        if not os.path.exists(f"data/gold/{CONFIG['dataset_name']}"):
+            os.makedirs(f"data/gold/{CONFIG['dataset_name']}")
+
+        with open(config_dict["event_gold_file_path"], "w") as f:
+            f.write(event_true_labels_str)
 
         entity_predicted_lst = [entity.cd_coref_chain for entity in all_entity_mentions]
         true_labels = [entity.gold_tag for entity in all_entity_mentions]
@@ -1687,12 +1709,19 @@ def test_models(test_set, cd_event_model,cd_entity_model, device,
         entity_gold_lst = [labels_mapping[label] for label in true_labels]
         entity_r, entity_p, entity_b3_f1 = bcubed(entity_gold_lst, entity_predicted_lst)
 
-        return event_b3_f1, entity_b3_f1
+        entity_true_labels_str = f"#begin document (CDCR/{CONFIG['dataset_name']}); part 000\n"
+        for pred in entity_gold_lst:
+            entity_true_labels_str += f"CDCR/{CONFIG['dataset_name']}\t({pred})\n"
+        entity_true_labels_str += "#end document\n"
+
+        with open(config_dict["entity_gold_file_path"], "w") as f:
+            f.write(entity_true_labels_str)
 
     else:
         print('Using predicted mentions, can not calculate CoNLL F1')
         logging.info('Using predicted mentions, can not calculate CoNLL F1')
-        return 0, 0
+
+    return all_entity_clusters, all_event_clusters
 
 
 def init_clusters_with_lemma_baseline(mentions, is_event):

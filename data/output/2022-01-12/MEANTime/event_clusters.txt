@@ -1,0 +1,614 @@
+Topic - 1MEANTIMEcross
+cluster #1
+['supply_OTH40008832085658797']
+
+cluster #2
+['fought_OTH40008523134673070']
+
+cluster #3
+['winning_OTH40009451639438359']
+
+cluster #4
+['operations_OTH40008686172178296']
+
+cluster #5
+['told_SPE40011876827379708']
+
+cluster #6
+['promising_OTH41485093717500004']
+
+cluster #7
+['commitment_OTH40012892908022737']
+
+cluster #8
+['bases_OTH40013735438821796']
+
+cluster #9
+['tapped_OTH40013941549790830']
+
+cluster #10
+['favored_OTH40014177204437470']
+
+cluster #11
+['converted_OTH40004835772610870']
+
+cluster #12
+['task_OTH40006208683962774']
+
+cluster #13
+['retains_OTH40005553506015286']
+
+cluster #14
+['requests_SPE40079278308187249']
+
+cluster #15
+['bidding_OTH40017758751204813']
+
+cluster #16
+['re-run_OTH40078665656701307']
+
+cluster #17
+['called_SPE40079278308187249']
+
+cluster #18
+['citing_SPE40079626916883447']
+
+cluster #19
+['process_OTH40020671613360424']
+
+cluster #20
+['award_OTH40014340782068576']
+
+cluster #21
+['skewed_OTH40078948739170947']
+
+cluster #22
+['selected_OTH40078800876070732']
+
+cluster #23
+['evaluation_OTH40020072973040735']
+
+cluster #24
+['claims_SPE40079402955413370']
+
+cluster #25
+['respond_SPE40080669921658281']
+
+cluster #26
+['This_OTH39662748410351348']
+
+cluster #27
+['justified_SPE39663765004543308']
+
+cluster #28
+['has_OTH40885843848241418']
+
+cluster #29
+['expose_SPE39587025627091114']
+
+cluster #30
+['say_SPE39587143735893000']
+
+cluster #31
+['killed_OTH39586544650687011']
+
+cluster #32
+['choosing_OTH39588195359910997']
+
+cluster #33
+['work_OTH39647458694943358']
+
+cluster #34
+['hired_OTH39647635642444246']
+
+cluster #35
+['demand_OTH40081548755494057']
+
+cluster #36
+['approved_OTH40080871570026459']
+
+cluster #37
+['statement_SPE40086026143136291']
+
+cluster #38
+['support_OTH40085689827306347']
+
+cluster #39
+['fuel efficient_OTH40105343779700492']
+
+cluster #40
+['plagued_OTH40792100429882477']
+
+cluster #41
+['attracted_OTH40792746320291067']
+
+cluster #42
+['thank_OTH39751169071220178']
+
+cluster #43
+['interests_OTH39760928849741949']
+
+cluster #44
+['taken_OTH41484928293060156']
+
+cluster #45
+['development_OTH41486767222958580']
+
+cluster #46
+['under development_OTH41486767222958580']
+
+cluster #47
+['be_OTH39910273383111989']
+
+cluster #48
+['used_OTH40781664852666173']
+
+cluster #49
+['announced_SPE40781767634228442']
+
+cluster #50
+['showcase_OTH40781481066190148']
+
+cluster #51
+['set up_OTH40781391115137995']
+
+cluster #52
+['forum_OTH40780626242688028']
+
+cluster #53
+['have_OTH40182575800440798']
+
+cluster #54
+['replied_SPE40183181778549007']
+
+cluster #55
+['relationship_OTH40183683355256026']
+
+cluster #56
+['policy_OTH41485629502194601']
+
+cluster #57
+['promised_OTH41484573842214094']
+
+cluster #58
+['improve_OTH40794312077439107']
+
+cluster #59
+['decided_OTH40795358312829613']
+
+cluster #60
+['left_OTH40795471541723530']
+
+cluster #61
+['said_SPE40796126422692908']
+
+cluster #62
+['made_OTH39949727060932298']
+
+cluster #63
+['ceremony_OTH39949952467929202']
+
+cluster #64
+['take off_OTH39986871391338029']
+
+cluster #65
+['land_OTH39986563619624958']
+
+cluster #66
+['service_OTH39988132893142073']
+
+cluster #67
+['greeted_OTH39987719938471546']
+
+cluster #68
+['pride_OTH39988036391510110']
+
+cluster #69
+['success_OTH39990131485160375']
+
+cluster #70
+['cited_SPE39990754426802645']
+
+cluster #71
+['applauded_SPE39990415537935709']
+
+cluster #72
+['said_SPE39990554655029141']
+
+cluster #73
+['precaution_OTH39656963066540362']
+
+cluster #74
+['opened_OTH39657880729730047']
+
+cluster #75
+['operate_OTH39657767160129873']
+
+cluster #76
+['offers_OTH39907804410043461']
+
+cluster #77
+['orders_OTH39908080265766512']
+
+cluster #78
+['scheduled_OTH39910021085715950']
+
+cluster #79
+['replace_OTH40876724703376458', 'replace_OTH40005311992439132', 'replace_OTH40005311992439132']
+
+cluster #80
+['speech_SPE39988218337816338', 'speech_SPE39587263435352274']
+
+cluster #81
+['upheld_OTH40079090648254008', 'upheld_OTH40079090648254008']
+
+cluster #82
+['accident_OTH40793333767807890', 'accident_OTH40793333767807890', 'accident_OTH40793333767807890']
+
+cluster #83
+['flight_OTH39909780677225132', 'flight_OTH39991217318385402', 'flight_OTH39991217318385402', 'flight_OTH39987549735903805', 'flight_OTH40792549323746209', 'test flight_OTH40792549323746209', 'charity-flight_OTH39991217318385402']
+
+cluster #84
+['delivered_OTH41487797876060148', 'delivered_OTH40780386817926072', 'delivered_OTH39740769611526334', 'delivered_OTH39740769611526334', 'delivered_OTH39740769611526334']
+
+cluster #85
+['negotiations_SPE41486960984781382', 'negotiations_SPE39587543053194978', 'discussions_OTH39585474200241676']
+
+cluster #86
+['purchase_OTH40781010768184952', 'purchase_OTH40781010768184952', 'purchase_OTH39662748410351348', 'lease_OTH39586691437375297']
+
+cluster #87
+['protest_OTH40074768058231593', 'protest_OTH40074768058231593']
+
+cluster #88
+['landing_OTH39987799845392007', 'landed_OTH39987799845392007']
+
+cluster #89
+['manufactured_OTH41490356421358484', 'manufacturers_OTH39588549667269490']
+
+cluster #90
+['challenged_OTH40018643816595782', 'challenged_OTH40013104999803993']
+
+cluster #91
+['announced_SPE40085843660007045', 'announced_SPE40012577617384565', 'announced_SPE39751747741077496']
+
+cluster #92
+['built_OTH39909305919839605', 'built_OTH39949727060932298', 'owned_OTH40005147025261087']
+
+cluster #93
+['shortcoming_OTH39588937127515145', 'flaws_OTH40020420630600389']
+
+cluster #94
+['won_OTH40006305262701208', 'wins_OTH40006305262701208', 'defeated_OTH40007248568632246', 'defeat_OTH40007248568632246', 'defeated_OTH40007248568632246', 'win_OTH40006305262701208']
+
+cluster #95
+['carry_OTH39910139293336401', 'carrying_OTH40795614498790694']
+
+cluster #96
+['fly_OTH40794167174620375', 'fly_OTH40004984807990885']
+
+cluster #97
+['flew_OTH39656489704316456', 'flown_OTH39986415267459317', 'flying_OTH39656489704316456']
+
+cluster #98
+['deal_OTH40182370070791372', 'deal_OTH40182370070791372', 'deal_OTH40182370070791372', 'deal_OTH40182370070791372', 'deal_OTH39905444115998914', 'deal_OTH40182370070791372', 'deal_OTH40182370070791372', 'deal_OTH41484432694512569', 'agreement_OTH40182370070791372', 'deals_OTH40007770120739365', 'negotiated_SPE40781849676060246', 'negotiates_SPE40781849676060246', 'proposal_OTH39586882618092159', 'plan_OTH40020512197435246']
+
+cluster #99
+['claims_SPE40097094226693104', 'claiming_SPE40079402955413370']
+
+cluster #100
+['pushed back_OTH40794576584394654', 'push back_OTH40794576584394654']
+
+cluster #101
+['signed_OTH39761054022441933', 'signed_OTH40005672052981865', 'inked_OTH40007599217471569', 'rerun_OTH40078665656701307']
+
+cluster #102
+['entered_OTH40184121749809278', 'entered_OTH39585933414241522', 'entered_OTH39585933414241522', 'enters_OTH39657508401482341']
+
+Topic - 1MEANTIMEcross
+cluster #1
+['supply_OTH40008832085658797']
+
+cluster #2
+['fought_OTH40008523134673070']
+
+cluster #3
+['winning_OTH40009451639438359']
+
+cluster #4
+['operations_OTH40008686172178296']
+
+cluster #5
+['told_SPE40011876827379708']
+
+cluster #6
+['promising_OTH41485093717500004']
+
+cluster #7
+['commitment_OTH40012892908022737']
+
+cluster #8
+['bases_OTH40013735438821796']
+
+cluster #9
+['tapped_OTH40013941549790830']
+
+cluster #10
+['favored_OTH40014177204437470']
+
+cluster #11
+['converted_OTH40004835772610870']
+
+cluster #12
+['task_OTH40006208683962774']
+
+cluster #13
+['retains_OTH40005553506015286']
+
+cluster #14
+['requests_SPE40079278308187249']
+
+cluster #15
+['bidding_OTH40017758751204813']
+
+cluster #16
+['re-run_OTH40078665656701307']
+
+cluster #17
+['called_SPE40079278308187249']
+
+cluster #18
+['citing_SPE40079626916883447']
+
+cluster #19
+['process_OTH40020671613360424']
+
+cluster #20
+['award_OTH40014340782068576']
+
+cluster #21
+['skewed_OTH40078948739170947']
+
+cluster #22
+['selected_OTH40078800876070732']
+
+cluster #23
+['evaluation_OTH40020072973040735']
+
+cluster #24
+['claims_SPE40079402955413370']
+
+cluster #25
+['respond_SPE40080669921658281']
+
+cluster #26
+['This_OTH39662748410351348']
+
+cluster #27
+['justified_SPE39663765004543308']
+
+cluster #28
+['has_OTH40885843848241418']
+
+cluster #29
+['expose_SPE39587025627091114']
+
+cluster #30
+['say_SPE39587143735893000']
+
+cluster #31
+['killed_OTH39586544650687011']
+
+cluster #32
+['choosing_OTH39588195359910997']
+
+cluster #33
+['work_OTH39647458694943358']
+
+cluster #34
+['hired_OTH39647635642444246']
+
+cluster #35
+['demand_OTH40081548755494057']
+
+cluster #36
+['approved_OTH40080871570026459']
+
+cluster #37
+['statement_SPE40086026143136291']
+
+cluster #38
+['support_OTH40085689827306347']
+
+cluster #39
+['fuel efficient_OTH40105343779700492']
+
+cluster #40
+['plagued_OTH40792100429882477']
+
+cluster #41
+['attracted_OTH40792746320291067']
+
+cluster #42
+['thank_OTH39751169071220178']
+
+cluster #43
+['interests_OTH39760928849741949']
+
+cluster #44
+['taken_OTH41484928293060156']
+
+cluster #45
+['development_OTH41486767222958580']
+
+cluster #46
+['under development_OTH41486767222958580']
+
+cluster #47
+['be_OTH39910273383111989']
+
+cluster #48
+['used_OTH40781664852666173']
+
+cluster #49
+['announced_SPE40781767634228442']
+
+cluster #50
+['showcase_OTH40781481066190148']
+
+cluster #51
+['set up_OTH40781391115137995']
+
+cluster #52
+['forum_OTH40780626242688028']
+
+cluster #53
+['have_OTH40182575800440798']
+
+cluster #54
+['replied_SPE40183181778549007']
+
+cluster #55
+['relationship_OTH40183683355256026']
+
+cluster #56
+['policy_OTH41485629502194601']
+
+cluster #57
+['promised_OTH41484573842214094']
+
+cluster #58
+['improve_OTH40794312077439107']
+
+cluster #59
+['decided_OTH40795358312829613']
+
+cluster #60
+['left_OTH40795471541723530']
+
+cluster #61
+['said_SPE40796126422692908']
+
+cluster #62
+['made_OTH39949727060932298']
+
+cluster #63
+['ceremony_OTH39949952467929202']
+
+cluster #64
+['take off_OTH39986871391338029']
+
+cluster #65
+['land_OTH39986563619624958']
+
+cluster #66
+['service_OTH39988132893142073']
+
+cluster #67
+['greeted_OTH39987719938471546']
+
+cluster #68
+['pride_OTH39988036391510110']
+
+cluster #69
+['success_OTH39990131485160375']
+
+cluster #70
+['cited_SPE39990754426802645']
+
+cluster #71
+['applauded_SPE39990415537935709']
+
+cluster #72
+['said_SPE39990554655029141']
+
+cluster #73
+['precaution_OTH39656963066540362']
+
+cluster #74
+['opened_OTH39657880729730047']
+
+cluster #75
+['operate_OTH39657767160129873']
+
+cluster #76
+['offers_OTH39907804410043461']
+
+cluster #77
+['orders_OTH39908080265766512']
+
+cluster #78
+['scheduled_OTH39910021085715950']
+
+cluster #79
+['replace_OTH40876724703376458', 'replace_OTH40005311992439132', 'replace_OTH40005311992439132']
+
+cluster #80
+['speech_SPE39988218337816338', 'speech_SPE39587263435352274']
+
+cluster #81
+['upheld_OTH40079090648254008', 'upheld_OTH40079090648254008']
+
+cluster #82
+['accident_OTH40793333767807890', 'accident_OTH40793333767807890', 'accident_OTH40793333767807890']
+
+cluster #83
+['flight_OTH39909780677225132', 'flight_OTH39991217318385402', 'flight_OTH39991217318385402', 'flight_OTH39987549735903805', 'flight_OTH40792549323746209', 'test flight_OTH40792549323746209', 'charity-flight_OTH39991217318385402']
+
+cluster #84
+['delivered_OTH41487797876060148', 'delivered_OTH40780386817926072', 'delivered_OTH39740769611526334', 'delivered_OTH39740769611526334', 'delivered_OTH39740769611526334']
+
+cluster #85
+['negotiations_SPE41486960984781382', 'negotiations_SPE39587543053194978', 'discussions_OTH39585474200241676']
+
+cluster #86
+['purchase_OTH40781010768184952', 'purchase_OTH40781010768184952', 'purchase_OTH39662748410351348', 'lease_OTH39586691437375297']
+
+cluster #87
+['protest_OTH40074768058231593', 'protest_OTH40074768058231593']
+
+cluster #88
+['landing_OTH39987799845392007', 'landed_OTH39987799845392007']
+
+cluster #89
+['manufactured_OTH41490356421358484', 'manufacturers_OTH39588549667269490']
+
+cluster #90
+['challenged_OTH40018643816595782', 'challenged_OTH40013104999803993']
+
+cluster #91
+['announced_SPE40085843660007045', 'announced_SPE40012577617384565', 'announced_SPE39751747741077496']
+
+cluster #92
+['built_OTH39909305919839605', 'built_OTH39949727060932298', 'owned_OTH40005147025261087']
+
+cluster #93
+['shortcoming_OTH39588937127515145', 'flaws_OTH40020420630600389']
+
+cluster #94
+['won_OTH40006305262701208', 'wins_OTH40006305262701208', 'defeated_OTH40007248568632246', 'defeat_OTH40007248568632246', 'defeated_OTH40007248568632246', 'win_OTH40006305262701208']
+
+cluster #95
+['carry_OTH39910139293336401', 'carrying_OTH40795614498790694']
+
+cluster #96
+['fly_OTH40794167174620375', 'fly_OTH40004984807990885']
+
+cluster #97
+['flew_OTH39656489704316456', 'flown_OTH39986415267459317', 'flying_OTH39656489704316456']
+
+cluster #98
+['deal_OTH40182370070791372', 'deal_OTH40182370070791372', 'deal_OTH40182370070791372', 'deal_OTH40182370070791372', 'deal_OTH39905444115998914', 'deal_OTH40182370070791372', 'deal_OTH40182370070791372', 'deal_OTH41484432694512569', 'agreement_OTH40182370070791372', 'deals_OTH40007770120739365', 'negotiated_SPE40781849676060246', 'negotiates_SPE40781849676060246', 'proposal_OTH39586882618092159', 'plan_OTH40020512197435246']
+
+cluster #99
+['claims_SPE40097094226693104', 'claiming_SPE40079402955413370']
+
+cluster #100
+['signed_OTH39761054022441933', 'signed_OTH40005672052981865', 'inked_OTH40007599217471569', 'rerun_OTH40078665656701307']
+
+cluster #101
+['pushed back_OTH40794576584394654', 'push back_OTH40794576584394654']
+
+cluster #102
+['entered_OTH40184121749809278', 'entered_OTH39585933414241522', 'entered_OTH39585933414241522', 'enters_OTH39657508401482341']
+
