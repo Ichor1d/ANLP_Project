@@ -30,7 +30,7 @@ def write_span_based_cd_coref_clusters(corpus, out_file, is_event, is_gold, use_
     :param use_gold_mentions: whether to use the gold mentions or predicted mentions
     '''
     mentions_count = 0
-    out_coref = open(out_file, 'w')
+    out_coref = open(out_file, 'a+')
     ecb_topics = {}
     ecbplus_topics = {}
     cd_coref_chain_to_id = {}
@@ -151,7 +151,7 @@ def write_mention_based_cd_clusters(corpus, is_event, is_gold,out_file):
     :param is_gold: whether to write a gold-standard file (key) which contains the gold clusters
     or to write a system file (response) that contains the predicted clusters.
     '''
-    out_coref = open(out_file, 'w')
+    out_coref = open(out_file, 'a+')
     cd_coref_chain_to_id = {}
     cd_coref_chain_to_id_counter = 0
     ecb_topics = {}
@@ -207,7 +207,7 @@ def write_mention_based_wd_clusters(corpus, is_event, is_gold, out_file):
     next_doc_increment = 0
     doc_increment = 10000
 
-    out_coref = open(out_file, 'w')
+    out_coref = open(out_file, 'a+')
     cd_coref_chain_to_id = {}
     cd_coref_chain_to_id_counter = 0
     ecb_topics = {}
@@ -218,7 +218,7 @@ def write_mention_based_wd_clusters(corpus, is_event, is_gold, out_file):
         else:
             ecb_topics[topic_id] = topic
 
-    generic = 'ECB+/ecbplus_all'
+    generic = f'CDCR/{CONFIG["dataset_name"]}'
     out_coref.write("#begin document (" + generic + "); part 000" + '\n')
     topic_keys = sorted(ecb_topics.keys()) + sorted(ecbplus_topics.keys())
 

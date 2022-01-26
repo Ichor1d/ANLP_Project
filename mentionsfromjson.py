@@ -1,3 +1,4 @@
+import os.path
 import time
 
 from shared.classes import Corpus, EntityMention, EventMention
@@ -35,8 +36,19 @@ def _save_coref_mentions(mentions):
                 "is_singleton": False
             })
 
+    """
+        In the case of training we want to append the dev clusters to the train cluster.
+        But in the case of testing we always want to only have the momentarily necessary document clusters.
+    """
+    if not CONFIG['test']:
+        if os.path.exists(EECDCR_CONFIG_DICT["wd_entity_coref_file"]):
+            with open(EECDCR_CONFIG_DICT["wd_entity_coref_file"], "r") as f:
+                data = json.load(f)
+            for entry in data:
+                cand_list.append(entry)
+
     with open(EECDCR_CONFIG_DICT["wd_entity_coref_file"], "w") as f:
-        json.dump(cand_list, f, indent=3)
+        json.dump(cand_list, f, indent=1)
 
 
 def _attachMentionToCorpus(mention, corpus: Corpus, is_event):
@@ -137,15 +149,14 @@ def loadMentionsFromJson(corpus: Corpus = None):
         event_mentions = [x for x in event_mentions if not x['is_singleton']]
 
     print("Handling all entity mentions")
-    for entity_mention in tqdm(entity_mentions, desc="Entity Mentions"):
+    for entity_mention in entity_mentions:
         mention = _createMention(corpus, entity_mention, nlp, 'entity')
         if mention is not None:
             all_mentions.append(mention)
         # corpus = _attachMentionToCorpus(mention, corpus, False)
 
-    print("\n")
     print("Handling all event mentions")
-    for event_mention in tqdm(event_mentions, desc="Event Mentions"):
+    for event_mention in event_mentions:
         mention = _createMention(corpus, event_mention, nlp, 'event')
         if mention is not None:
             all_mentions.append(mention)

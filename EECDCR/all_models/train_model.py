@@ -13,66 +13,22 @@ import numpy as np
 from scorer import *
 import _pickle as cPickle
 
-for pack in os.listdir("src"):
-    sys.path.append(os.path.join("src", pack))
-
-sys.path.append("/src/shared/")
-
-parser = argparse.ArgumentParser(description='Training a regressor')
-
-parser.add_argument('--config_path', type=str,
-                    help=' The path configuration json file')
-parser.add_argument('--out_dir', type=str,
-                    help=' The directory to the output folder')
-
-args = parser.parse_args()
-
-out_dir = args.out_dir
-if not os.path.exists(out_dir):
-    os.makedirs(out_dir)
-
-logging.basicConfig(filename=os.path.join(args.out_dir, "train_log.txt"),
-                    level=logging.DEBUG, filemode='w')
-
-# Load json config file
-with open(args.config_path, 'r') as js_file:
-    config_dict = json.load(js_file)
-
-with open(os.path.join(args.out_dir,'train_config.json'), "w") as js_file:
-    json.dump(config_dict, js_file, indent=4, sort_keys=True)
-
-random.seed(config_dict["random_seed"])
-np.random.seed(config_dict["random_seed"])
-
-if config_dict["gpu_num"] != -1:
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(config_dict["gpu_num"])
-    args.use_cuda = True
-else:
-    args.use_cuda = False
-
 import torch
 
-args.use_cuda = args.use_cuda and torch.cuda.is_available()
-
 import torch.nn as nn
-from classes import *
-from eval_utils import *
-from model_utils import *
-from model_factory import *
+from shared.classes import *
+from EECDCR.all_models.eval_utils import *
+from EECDCR.all_models.model_utils import *
+from EECDCR.all_models.model_factory import *
 import torch.optim as optim
 import torch.nn.functional as F
 from spacy.lang.en import English
 
-
-torch.manual_seed(config_dict["seed"])
-if args.use_cuda:
-    torch.cuda.manual_seed(config_dict["seed"])
-    torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = False
-    print('Training with CUDA')
+config_dict = None
+out_dir = ""
 
 
-def train_model(train_set, dev_set):
+def train_model(train_set, dev_set, output_dir, config):
     '''
     Initializes models, optimizers and loss functions, then, it runs the training procedure that
     alternates between entity and event training and clustering on the train set.
@@ -81,8 +37,15 @@ def train_model(train_set, dev_set):
     Saves the entity and event models that achieved the best B-cubed scores on the dev set.
     :param train_set: a Corpus object, representing the train set.
     :param dev_set: a Corpus object, representing the dev set.
+    :param output_dir: the output directory
+    :param config: The config for training the model
     '''
-    device = torch.device("cuda:0" if args.use_cuda else "cpu")
+    device = torch.device("cpu")
+    global config_dict
+    config_dict = config
+
+    global out_dir
+    out_dir = output_dir
 
     doc_to_entity_mentions = load_entity_wd_clusters(config_dict)  # loads predicted WD entity coref chains from external tool
 
@@ -183,14 +146,14 @@ def train_model(train_set, dev_set):
         best_entity_f1_for_th = 0
 
         if event_best_dev_f1 > 0:
-            best_saved_cd_event_model = load_check_point(os.path.join(args.out_dir,
+            best_saved_cd_event_model = load_check_point(os.path.join(out_dir,
                                                                       'cd_event_best_model'))
             best_saved_cd_event_model.to(device)
         else:
             best_saved_cd_event_model = cd_event_model
 
         if entity_best_dev_f1 > 0:
-            best_saved_cd_entity_model = load_check_point(os.path.join(args.out_dir,
+            best_saved_cd_entity_model = load_check_point(os.path.join(out_dir,
                                                                        'cd_entity_best_model'))
             best_saved_cd_entity_model.to(device)
         else:
@@ -205,12 +168,12 @@ def train_model(train_set, dev_set):
 
                 # test event coref on dev
                 event_f1, _ = test_models(dev_set, cd_event_model, best_saved_cd_entity_model, device,
-                                                  config_dict, write_clusters=False, out_dir=args.out_dir,
+                                                  config_dict, write_clusters=False, out_dir=out_dir,
                                                   doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
 
                 # test entity coref on dev
                 _, entity_f1 = test_models(dev_set, best_saved_cd_event_model, cd_entity_model, device,
-                                                  config_dict, write_clusters=False, out_dir=args.out_dir,
+                                                  config_dict, write_clusters=False, out_dir=out_dir,
                                                   doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
 
                 if event_f1 > best_event_f1_for_th:
@@ -231,13 +194,13 @@ def train_model(train_set, dev_set):
         if event_f1 > event_best_dev_f1:
             event_best_dev_f1 = event_f1
             best_event_epoch = epoch
-            save_check_point(cd_event_model, os.path.join(args.out_dir, 'cd_event_best_model'))
+            save_check_point(cd_event_model, os.path.join(out_dir, 'cd_event_best_model'))
             improved = True
             patient_counter = 0
         if entity_f1 > entity_best_dev_f1:
             entity_best_dev_f1 = entity_f1
             best_entity_epoch = epoch
-            save_check_point(cd_entity_model, os.path.join(args.out_dir, 'cd_entity_best_model'))
+            save_check_point(cd_entity_model, os.path.join(out_dir, 'cd_entity_best_model'))
             improved = True
             patient_counter = 0
 
@@ -245,9 +208,9 @@ def train_model(train_set, dev_set):
             patient_counter += 1
 
         save_training_checkpoint(epoch, cd_event_model, cd_event_optimizer, event_best_dev_f1,
-                                 filename=os.path.join(args.out_dir, 'cd_event_model_state'))
+                                 filename=os.path.join(out_dir, 'cd_event_model_state'))
         save_training_checkpoint(epoch, cd_entity_model, cd_entity_optimizer, entity_best_dev_f1,
-                                 filename=os.path.join(args.out_dir, 'cd_entity_model_state'))
+                                 filename=os.path.join(out_dir, 'cd_entity_model_state'))
 
         if patient_counter >= config_dict["patient"]:
             logging.info('Early Stopping!')
@@ -318,7 +281,7 @@ def save_epoch_f1(event_f1, entity_f1, epoch,  best_event_th, best_entity_th):
     :param best_event_th: best found merging threshold for event coreference
     :param best_entity_th: best found merging threshold for event coreference
     '''
-    f = open(os.path.join(args.out_dir,'epochs_scores.txt'),'a')
+    f = open(os.path.join(out_dir,'epochs_scores.txt'),'a')
     f.write('Epoch {} -  Event F1: {:.3f} with th = {}  Entity F1: {:.3f} with th = {}  \n'.format(epoch,event_f1,best_event_th, entity_f1, best_entity_th))
     f.close()
 
@@ -333,7 +296,7 @@ def save_summary(best_event_score,best_entity_score, best_event_epoch,best_entit
     :param best_entity_epoch: the epoch of the best entity coreference
     :param total_epochs: total number of epochs
     '''
-    f = open(os.path.join(args.out_dir, 'summary.txt'), 'w')
+    f = open(os.path.join(out_dir, 'summary.txt'), 'w')
     f.write('Best Event F1: {:.3f} epoch: {} \n Best Entity F1: {:.3f} epoch: '
             '{} \n Training epochs: {}'.format(best_event_score,best_event_epoch,best_entity_score
                                                ,best_entity_epoch, total_epochs))
@@ -378,28 +341,3 @@ def load_training_checkpoint(model, optimizer, filename, device):
                 state[k] = v.to(device)
 
     return model, optimizer, start_epoch, best_f1
-
-
-def main():
-    '''
-    This script loads the train and dev sets, initializes models, optimizers and loss functions,
-    then, it runs the training procedure that alternates between entity and event training and
-    their clustering.
-    After each epoch, it runs the inference procedure on the dev set, calculates
-    the B-cubed measure and use it to tune the model and its hyper-parameters.
-    Finally, it saves the entity and event models that achieved the best B-cubed scores
-    on the dev set.
-    '''
-    logging.info('Loading training and dev data...')
-    with open(config_dict["train_path"], 'rb') as f:
-        training_data = cPickle.load(f)
-    with open(config_dict["dev_path"], 'rb') as f:
-        dev_data = cPickle.load(f)
-
-    logging.info('Training and dev data have been loaded.')
-
-    train_model(training_data, dev_data)
-
-
-if __name__ == '__main__':
-    main()

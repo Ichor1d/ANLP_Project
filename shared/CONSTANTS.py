@@ -59,7 +59,49 @@ EECDCR_CONFIG_DICT = {
     "random_seed": 2048,
 
     "event_gold_file_path": f"data/gold/{CONFIG['dataset_name']}/own_event_mention_based.key_conll",
-    # "event_gold_file_path": "data/gold/cybulska_gold/CD_test_event_mention_based.key_conll",
     "entity_gold_file_path": f"data/gold/{CONFIG['dataset_name']}/own_entity_mention_based.key_conll"
-    # "entity_gold_file_path": "data/gold/cybulska_gold/CD_test_entity_mention_based.key_conll"
+}
+
+
+EECDCR_TRAIN_CONFIG_DICT = {
+    "batch_size": 16,
+    "char_pretrained_path": "resources/Glove_Embedding_Files/char_embed/glove.840B.300d-char.npy",
+    "char_rep_size": 50,
+    "char_vocab_path": "resources/Glove_Embedding_Files/char_embed/glove.840B.300d-char.vocab",
+    "dev_path": "data/processed/cybulska_setup/full_swirl_ecb/dev_data",
+    "dev_th_range": [0.5, 0.6],
+
+    "entity_merge_threshold": 0.5,
+    "epochs": 50,
+    "event_merge_threshold": 0.5,
+    "feature_size": 50,
+    "glove_path": "resources/Glove_Embedding_Files/glove.6B.300d.txt",
+    "gpu_num": 0,
+
+    "load_predicted_topics": False,
+    "log_interval": 32,
+    "loss": "bce",
+    "lr": 0.0001,
+    "merge_iters": 2,
+    "momentum": 0,
+
+    "optimizer": "adam",
+    "patient": 7,
+    "random_seed": 2048,
+    "regressor_epochs": 1,
+    "remove_singletons": False,
+    "resume_training": False,
+    "seed": 1,
+
+    "test_use_gold_mentions": True,
+    "train_init_wd_entity_with_gold": True,
+    "train_path": "data/processed/cybulska_setup/full_swirl_ecb/training_data",
+    "use_args_feats": True,
+    "use_binary_feats": True,
+    "use_diff": False,
+    "use_mult": True,
+    "use_pretrained_char": True,
+
+    "wd_entity_coref_file": "data/external/wd_coref.json",
+    "weight_decay": 0
 }

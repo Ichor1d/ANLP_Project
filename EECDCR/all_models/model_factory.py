@@ -1,5 +1,5 @@
 from models import *
-from model_utils import *
+from EECDCR.all_models.model_utils import *
 import torch.nn as nn
 import torch.optim as optim
 import logging

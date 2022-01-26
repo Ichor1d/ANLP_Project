@@ -916,7 +916,7 @@ def update_args_feature_vectors(clusters, other_clusters ,model ,device, is_even
 
 
 def generate_cluster_pairs(clusters, is_train):
-    '''
+    """
     Given list of clusters, this function generates candidate cluster pairs (for training/inference).
     The function under-samples cluster pairs without any coreference links
      when generating cluster pairs for training and the current number of clusters in the
@@ -926,7 +926,7 @@ def generate_cluster_pairs(clusters, is_train):
     and False, for inference time (without under-sampling)
     :return: pairs - generated cluster pairs (potentially with under-sampling)
     , test_pairs -  all cluster pairs
-    '''
+    """
 
     positive_pairs_count = 0
     negative_pairs_count = 0
@@ -1695,7 +1695,7 @@ def test_models(test_set, cd_event_model,cd_entity_model, device,
         if not os.path.exists(f"data/gold/{CONFIG['dataset_name']}"):
             os.makedirs(f"data/gold/{CONFIG['dataset_name']}")
 
-        with open(config_dict["event_gold_file_path"], "w") as f:
+        with open(config_dict["event_gold_file_path"], "a") as f:
             f.write(event_true_labels_str)
 
         entity_predicted_lst = [entity.cd_coref_chain for entity in all_entity_mentions]
@@ -1714,7 +1714,7 @@ def test_models(test_set, cd_event_model,cd_entity_model, device,
             entity_true_labels_str += f"CDCR/{CONFIG['dataset_name']}\t({pred})\n"
         entity_true_labels_str += "#end document\n"
 
-        with open(config_dict["entity_gold_file_path"], "w") as f:
+        with open(config_dict["entity_gold_file_path"], "a") as f:
             f.write(entity_true_labels_str)
 
     else:

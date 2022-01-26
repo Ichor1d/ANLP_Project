@@ -1,5 +1,8 @@
 {
-  "test": [ "corpus_airbus"],
-  "train": [],
-  "dev": []
+  "test": [ "corpus_stock" ],
+  "train": [
+    "corpus_airbus",
+    "corpus_apple"
+  ],
+  "dev": [ "corpus_gm" ]
 }

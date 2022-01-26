@@ -1,7 +1,7 @@
 import os
 from collections import defaultdict
 
-from allennlp.predictors import Predictor
+from allennlp.predictors import SemanticRoleLabelerPredictor
 
 from typing import Dict, List
 
@@ -26,7 +26,7 @@ def get_srl_data(corpus: Corpus) -> Dict[str, Dict[str, SRLSentence]]:
     if not os.path.exists(CONFIG['bert_file']):
         raise Exception("Bert Model was not found.")
 
-    predictor = Predictor.from_path(CONFIG['bert_file'])
+    predictor = SemanticRoleLabelerPredictor.from_path(CONFIG['bert_file'])
 
     srl_data = defaultdict(lambda: defaultdict(SRLSentence))
     for topic in list(corpus.topics.values()):

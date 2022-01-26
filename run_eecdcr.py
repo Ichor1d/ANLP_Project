@@ -53,8 +53,7 @@ def _load_check_point(fname):
     return torch.load(fname, map_location=torch.device('cpu'))
 
 
-def test_model(corpus):
-    output_dir = f"data/output/{datetime.today().strftime('%Y-%m-%d')}/{CONFIG['dataset_name']}"
+def test_model(corpus, output_dir):
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
     device = torch.device("cpu")
@@ -69,7 +68,7 @@ def test_model(corpus):
     all_entity_clusters, all_event_clusters = test_models(corpus, cd_event_model, cd_entity_model, device,
                        EECDCR_CONFIG_DICT, write_clusters=True, out_dir=output_dir,
                        doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
-    return output_dir, all_entity_clusters, all_event_clusters
+    return all_entity_clusters, all_event_clusters
 
 
 def run_conll_scorer(out_dir):

@@ -2,6 +2,7 @@ import json
 
 from shared.CONSTANTS import dataset_path, meantimeNameConverter, CONFIG, train_test_path
 from shared.classes import Token, Sentence, Document, Topic, Corpus
+from typing import Union
 
 """
     To no real surprise the topic_id/document_id is not consistent between meantime & ecb+
@@ -12,24 +13,29 @@ from shared.classes import Token, Sentence, Document, Topic, Corpus
 """
 
 
-def read_CoNLL(topic_level=False, specific_document="") -> Corpus:
+def read_CoNLL(topic_level=False, specific_document="", split: Union[None, str] = None) -> Corpus:
     number_of_seen_topics = 1
     dataset_name = CONFIG['dataset_name']
 
-    train_test_dict = json.load(open(train_test_path[dataset_name], 'r'))
-    mode = 'test' if CONFIG['test'] else 'train'
-    neccessary_topics = train_test_dict[mode]
+    # train_test_dict = json.load(open(train_test_path[dataset_name], 'r'))
+    # mode = 'test' if CONFIG['test'] else 'train'
+    # neccessary_topics = train_test_dict[mode]
 
     with open(dataset_path[dataset_name], "r", encoding="utf8") as f:
         data = f.read()
 
     data = data.split("\n")
-    data = [datum for datum in data if datum.split("\t")[0].split("/")[0] in neccessary_topics]
+    # data = [datum for datum in data if datum.split("\t")[0].split("/")[0] in neccessary_topics]
 
-    if topic_level and specific_document != "":
+    if topic_level and specific_document != "" and split is None:
         if dataset_name == "MEANTime":
             specific_document = meantimeNameConverter[specific_document]
         data = [x for x in data if x.split("\t")[0].startswith(specific_document + "/")]
+
+    if split is not None:
+        train_test_dict = json.load(open(train_test_path[dataset_name], 'r'))
+        neccessary_topics = train_test_dict[split]
+        data = [datum for datum in data if datum.split("\t")[0].split("/")[0] in neccessary_topics]
 
     prev_sentence_id = "0"
     sentence = Sentence(0)
