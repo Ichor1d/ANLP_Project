@@ -18,6 +18,10 @@ The other model files will be downloaded directly from the code or can be downlo
 
 Alternatively you can place them wherever and adapt the path in `CONSTANTS.py`.
 
+* Glove Embeddings
+1) Download GloVe embeddings from *https://nlp.stanford.edu/projects/glove/* (we used glove.6B.300d).
+   1) Place in ``/resources/Glove_Embedding_Files/``
+
 ## Start the program
 So far, you can start the whole program via `python predict_model.py`.\
 You will need to enter the following information:
