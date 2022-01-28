@@ -65,10 +65,10 @@ def test_model(corpus, output_dir):
     cd_entity_model.to(device)
 
     doc_to_entity_mentions = load_entity_wd_clusters(EECDCR_CONFIG_DICT)
-    all_entity_clusters, all_event_clusters = test_models(corpus, cd_event_model, cd_entity_model, device,
+    event_b3_f1, entity_b3_f1 = test_models(corpus, cd_event_model, cd_entity_model, device,
                        EECDCR_CONFIG_DICT, write_clusters=True, out_dir=output_dir,
                        doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
-    return all_entity_clusters, all_event_clusters
+    return event_b3_f1, entity_b3_f1
 
 
 def run_conll_scorer(out_dir):

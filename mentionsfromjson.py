@@ -1,11 +1,9 @@
 import os.path
-import time
 
 from shared.classes import Corpus, EntityMention, EventMention
 from shared.CONSTANTS import mentions_path, CONFIG, EECDCR_CONFIG_DICT
 import json
 import spacy
-from tqdm import tqdm
 
 
 def _save_coref_mentions(mentions):

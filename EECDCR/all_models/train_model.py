@@ -40,7 +40,11 @@ def train_model(train_set, dev_set, output_dir, config):
     :param output_dir: the output directory
     :param config: The config for training the model
     '''
-    device = torch.device("cpu")
+    device = torch.device("cuda:0")
+
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
     global config_dict
     config_dict = config
 

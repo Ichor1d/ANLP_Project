@@ -37,8 +37,8 @@ CONFIG = {
 EECDCR_CONFIG_DICT = {
     "test_path": "data/processed/full_swirl_ecb/test_data",
 
-    "cd_event_model_path": "resources/eecdcr_models/cd_event_best_model",
-    "cd_entity_model_path": "resources/eecdcr_models/cd_entity_best_model",
+    "cd_event_model_path": "resources/eecdcr_models/from_barhom/cd_event_best_model",
+    "cd_entity_model_path": "resources/eecdcr_models/from_barhom/cd_entity_best_model",
 
     "gpu_num": 0,
     "event_merge_threshold": 0.5,

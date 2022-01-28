@@ -278,8 +278,8 @@ def match_allen_srl_structures(dataset, srl_data, is_gold):
 
                 if doc_id in srl_data:
                     doc_srl = srl_data[doc_id]
-                    if int(sent_id) in doc_srl:
-                        sent_srl_info = doc_srl[int(sent_id)]
+                    if sent_id in doc_srl:
+                        sent_srl_info = doc_srl[sent_id]
 
                 if sent_srl_info is not None:
                     for event_srl in sent_srl_info.srl:
@@ -586,7 +586,9 @@ def set_elmo_embed_to_mention(mention, sent_embeddings):
     '''
     head_index = mention.get_head_index()
     head_embeddings = sent_embeddings[int(head_index)]
-    mention.head_elmo_embeddings = torch.from_numpy(head_embeddings)
+    aa_tmp = torch.from_numpy(head_embeddings)
+    mention.head_elmo_embeddings = aa_tmp
+    i = 0
 
 
 def set_elmo_embeddings_to_mentions(elmo_embedder, sentence, set_pred_mentions):
