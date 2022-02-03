@@ -626,8 +626,8 @@ def load_elmo_embeddings(dataset, elmo_embedder, set_pred_mentions):
     :param elmo_embedder: a wrapper object for ELMo model of Allen NLP
     :return:
     '''
-    for topic_id, topic in dataset.topics.items():
-        for doc_id, doc in tqdm(topic.docs.items(), desc=topic_id):
+    for topic_id, topic in tqdm(dataset.topics.items(), desc='Loading Elmo embeddings'):
+        for doc_id, doc in topic.docs.items():
             for sent_id, sent in doc.get_sentences().items():
                 set_elmo_embeddings_to_mentions(elmo_embedder, sent, set_pred_mentions)
 

@@ -119,7 +119,7 @@ def load_entity_wd_clusters(config_dict):
     '''
     doc_to_entity_mentions = {}
 
-    with open(config_dict["wd_entity_coref_file"], 'r') as js_file:
+    with open(config_dict["wd_entity_coref_file"].format(CONFIG['dataset_name']), 'r') as js_file:
         js_mentions = json.load(js_file)
 
     # load all entity mentions in the json
@@ -625,7 +625,7 @@ def load_check_point(fname):
     :param fname: model's filename
     :return:Pytorch model
     '''
-    return torch.load(fname, map_location=torch.device('cpu'))
+    return torch.load(fname, map_location=torch.device('cuda:0'))
 
 
 def create_gold_clusters(mentions):
@@ -1559,7 +1559,7 @@ def test_models(test_set, cd_event_model, cd_entity_model, device,
     all_entity_mentions = []
 
     with torch.no_grad():
-        for topic_id in tqdm(topics_keys):
+        for topic_id in topics_keys:
             topic = topics[topic_id]
             topics_counter += 1
 
@@ -1687,17 +1687,17 @@ def test_models(test_set, cd_event_model, cd_entity_model, device,
         event_gold_lst = [labels_mapping[label] for label in true_labels]
         event_r, event_p, event_b3_f1 = bcubed(event_gold_lst, event_predicted_lst)
 
-        event_true_labels_str = f"#begin document (CDCR/{CONFIG['dataset_name']}); part 000\n"
-        for pred in event_gold_lst:
-            event_true_labels_str += f"CDCR/{CONFIG['dataset_name']}\t({pred})\n"
-        event_true_labels_str += "#end document\n"
-
-        if write_clusters:
-            if not os.path.exists(f"data/gold/{CONFIG['dataset_name']}"):
-                os.makedirs(f"data/gold/{CONFIG['dataset_name']}")
-
-            with open(config_dict["event_gold_file_path"], "a") as f:
-                f.write(event_true_labels_str)
+        # if write_clusters:
+        #     event_true_labels_str = f"#begin document (CDCR/{CONFIG['dataset_name']}); part 000\n"
+        #     for pred in event_gold_lst:
+        #         event_true_labels_str += f"CDCR/{CONFIG['dataset_name']}\t({pred})\n"
+        #     event_true_labels_str += "#end document\n"
+        #
+        #     if not os.path.exists(config_dict["event_gold_file_path"].format(CONFIG['dataset_name'])):
+        #         os.makedirs(config_dict["event_gold_file_path"].format(CONFIG['dataset_name']))
+        #
+        #     with open(config_dict["event_gold_file"].format(CONFIG['dataset_name']), "w") as f:
+        #         f.write(event_true_labels_str)
 
         entity_predicted_lst = [entity.cd_coref_chain for entity in all_entity_mentions]
         true_labels = [entity.gold_tag for entity in all_entity_mentions]
@@ -1710,21 +1710,21 @@ def test_models(test_set, cd_event_model, cd_entity_model, device,
         entity_gold_lst = [labels_mapping[label] for label in true_labels]
         entity_r, entity_p, entity_b3_f1 = bcubed(entity_gold_lst, entity_predicted_lst)
 
-        entity_true_labels_str = f"#begin document (CDCR/{CONFIG['dataset_name']}); part 000\n"
-        for pred in entity_gold_lst:
-            entity_true_labels_str += f"CDCR/{CONFIG['dataset_name']}\t({pred})\n"
-        entity_true_labels_str += "#end document\n"
-
-        if write_clusters:
-            with open(config_dict["entity_gold_file_path"], "a") as f:
-                f.write(entity_true_labels_str)
+        # if write_clusters:
+        #     entity_true_labels_str = f"#begin document (CDCR/{CONFIG['dataset_name']}); part 000\n"
+        #     for pred in entity_gold_lst:
+        #         entity_true_labels_str += f"CDCR/{CONFIG['dataset_name']}\t({pred})\n"
+        #     entity_true_labels_str += "#end document\n"
+        #
+        #     with open(config_dict["entity_gold_file"].format(CONFIG['dataset_name']), "w") as f:
+        #         f.write(entity_true_labels_str)
 
         return event_b3_f1, entity_b3_f1
     else:
         print('Using predicted mentions, can not calculate CoNLL F1')
         logging.info('Using predicted mentions, can not calculate CoNLL F1')
 
-    return all_entity_clusters, all_event_clusters
+    return 0, 0
 
 
 def init_clusters_with_lemma_baseline(mentions, is_event):

@@ -8,3 +8,5 @@ format.txt
 # directories.
 __pycache__
 .idea
+
+/data/output/*

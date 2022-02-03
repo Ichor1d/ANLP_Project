@@ -19,23 +19,20 @@ def read_CoNLL(topic_level=False, specific_document="", split: Union[None, str] 
 
     # train_test_dict = json.load(open(train_test_path[dataset_name], 'r'))
     # mode = 'test' if CONFIG['test'] else 'train'
-    # neccessary_topics = train_test_dict[mode]
+    # necessary_topics = train_test_dict[mode]
 
     with open(dataset_path[dataset_name], "r", encoding="utf8") as f:
         data = f.read()
 
     data = data.split("\n")
-    # data = [datum for datum in data if datum.split("\t")[0].split("/")[0] in neccessary_topics]
 
     if topic_level and specific_document != "" and split is None:
-        if dataset_name == "MEANTime":
-            specific_document = meantimeNameConverter[specific_document]
         data = [x for x in data if x.split("\t")[0].startswith(specific_document + "/")]
 
-    if split is not None:
+    if split in ['test', 'train', 'dev']:
         train_test_dict = json.load(open(train_test_path[dataset_name], 'r'))
-        neccessary_topics = train_test_dict[split]
-        data = [datum for datum in data if datum.split("\t")[0].split("/")[0] in neccessary_topics]
+        necessary_topics = train_test_dict[split]
+        data = [datum for datum in data if datum.split("\t")[0].split("/")[0] in necessary_topics]
 
     prev_sentence_id = "0"
     sentence = Sentence(0)
@@ -83,6 +80,7 @@ def read_CoNLL(topic_level=False, specific_document="", split: Union[None, str] 
             token = Token(split_line[2], split_line[3])
             sentence.add_token(token)
         else:
+            # for some reason some tokens are empty. For analysis reasons, these are printed.
             print(f"Skipped the token {bs}, since it was empty.")
 
         # if we start a new document (name of the document changes)

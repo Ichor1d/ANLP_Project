@@ -10,7 +10,7 @@ written_mentions = 0
 cd_clusters_count = 10000
 wd_clusters_count = 10
 
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 from shared.classes import *
@@ -30,7 +30,7 @@ def write_span_based_cd_coref_clusters(corpus, out_file, is_event, is_gold, use_
     :param use_gold_mentions: whether to use the gold mentions or predicted mentions
     '''
     mentions_count = 0
-    out_coref = open(out_file, 'a+')
+    out_coref = open(out_file, 'w')
     ecb_topics = {}
     ecbplus_topics = {}
     cd_coref_chain_to_id = {}
@@ -151,7 +151,7 @@ def write_mention_based_cd_clusters(corpus, is_event, is_gold,out_file):
     :param is_gold: whether to write a gold-standard file (key) which contains the gold clusters
     or to write a system file (response) that contains the predicted clusters.
     '''
-    out_coref = open(out_file, 'a+')
+    out_coref = open(out_file, 'w')
     cd_coref_chain_to_id = {}
     cd_coref_chain_to_id_counter = 0
     ecb_topics = {}
@@ -207,7 +207,7 @@ def write_mention_based_wd_clusters(corpus, is_event, is_gold, out_file):
     next_doc_increment = 0
     doc_increment = 10000
 
-    out_coref = open(out_file, 'a+')
+    out_coref = open(out_file, 'w')
     cd_coref_chain_to_id = {}
     cd_coref_chain_to_id_counter = 0
     ecb_topics = {}

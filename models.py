@@ -41,7 +41,7 @@ class CDCorefScorer(nn.Module):
 
         self.char_embeddings = nn.Embedding(len(char_to_ix.keys()), char_embedding.shape[1])
         self.char_embeddings.weight.data.copy_(torch.from_numpy(char_embedding))
-        self.char_embeddings.weight.requires_grad = False
+        self.char_embeddings.weight.requires_grad = True
         self.char_to_ix = char_to_ix
         self.embedding_dim = word_embeds.shape[1]
         self.char_hidden_dim = char_rep_size

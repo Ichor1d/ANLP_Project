@@ -29,8 +29,8 @@ out_dir = args.out_dir
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
 
-logging.basicConfig(filename=os.path.join(args.out_dir, "test_log.txt"),
-                    level=logging.INFO, filemode="w")
+# logging.basicConfig(filename=os.path.join(args.out_dir, "test_log.txt"),
+#                     level=logging.INFO, filemode="w")
 
 # Loads a json configuration file (test_config.json)
 with open(args.config_path, 'r') as js_file:
@@ -98,11 +98,11 @@ def run_conll_scorer():
     event_conll_file = os.path.join(args.out_dir,'event_scorer_cd_out.txt')
     entity_conll_file = os.path.join(args.out_dir,'entity_scorer_cd_out.txt')
 
-    event_scorer_command = ('perl scorer/scorer.pl all {} {} none > {} \n'.format(config_dict["event_gold_file_path"],
+    event_scorer_command = ('perl scorer/scorer.pl all {} {} none > {} \n'.format(config_dict["event_gold_file_path"].format(CONFIG['dataset_name']),
                                                                                   event_response_filename,
                                                                                   event_conll_file))
 
-    entity_scorer_command = ('perl scorer/scorer.pl all {} {} none > {} \n'.format(config_dict["entity_gold_file_path"],
+    entity_scorer_command = ('perl scorer/scorer.pl all {} {} none > {} \n'.format(config_dict["entity_gold_file_path"].format(CONFIG['dataset_name']),
                                                                                    entity_response_filename,
                                                                                    entity_conll_file))
 

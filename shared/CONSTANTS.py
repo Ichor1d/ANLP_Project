@@ -25,13 +25,21 @@ meantimeNameConverter = {
 }
 
 CONFIG = {
-    'test': True,
+    'seed': 42,
+    'test': False,
+    'train': False,
     'dataset_name': 'MEANTime',
-    'use_singletons': False,
+    'use_singletons': True,
     'bert_file': 'resources/word_vector_models/BERT_SRL/bert-base-srl-2019.06.17.tar.gz',
     'elmo_options_file': 'resources/word_vector_models/ELMO_Original_55B/elmo_2x4096_512_2048cnn_2xhighway_5.5B_options.json',
     'elmo_weight_file': 'resources/word_vector_models/ELMO_Original_55B/elmo_2x4096_512_2048cnn_2xhighway_5.5B_weights.hdf5',
-    'use_dep': False
+    'use_dep': False,
+    'use_srl': True,
+    'wiggle': True,
+    "wd_entity_coref_file_path": "data/{0}/wd/",
+    "wd_entity_coref_file": "data/{0}/wd/wd_coref.json",
+    'gold_files_dir': 'data/{0}/gold/',
+    'mention_based_key_file': True
 }
 
 EECDCR_CONFIG_DICT = {
@@ -48,8 +56,8 @@ EECDCR_CONFIG_DICT = {
     "use_binary_feats": True,
 
     "test_use_gold_mentions": True,
-    "wd_entity_coref_file": "data/external/wd_coref.json",
-    # "wd_entity_coref_file": "data/ecb+/ecb_wd_coref.json",
+    "wd_entity_coref_file_path": "data/{0}/wd/",
+    "wd_entity_coref_file": "data/{0}/wd/wd_coref.json",
     "merge_iters": 2,
 
     "load_predicted_topics": False,
@@ -58,8 +66,10 @@ EECDCR_CONFIG_DICT = {
     "seed": 1,
     "random_seed": 2048,
 
-    "event_gold_file_path": f"data/gold/{CONFIG['dataset_name']}/own_event_mention_based.key_conll",
-    "entity_gold_file_path": f"data/gold/{CONFIG['dataset_name']}/own_entity_mention_based.key_conll"
+    "event_gold_file_path": "data/{0}/gold/",
+    "event_gold_file": "data/{0}/gold/CD_test_event_mention_based.key_conll",
+    "entity_gold_file_path": "data/{0}/gold/",
+    "entity_gold_file": "data/{0}/gold/CD_test_entity_mention_based.key_conll"
 }
 
 
@@ -102,6 +112,6 @@ EECDCR_TRAIN_CONFIG_DICT = {
     "use_mult": True,
     "use_pretrained_char": True,
 
-    "wd_entity_coref_file": "data/external/wd_coref.json",
+    "wd_entity_coref_file": "data/{0}/wd/wd_coref.json",
     "weight_decay": 0
 }

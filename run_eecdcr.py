@@ -20,7 +20,7 @@ def load_entity_wd_clusters(config_dict):
     '''
     doc_to_entity_mentions = {}
 
-    with open(config_dict["wd_entity_coref_file"], 'r') as js_file:
+    with open(config_dict["wd_entity_coref_file"].format(CONFIG['dataset_name']), 'r') as js_file:
         js_mentions = json.load(js_file)
 
     # load all entity mentions in the json
@@ -50,13 +50,13 @@ def _load_check_point(fname):
     :param fname: model's filename
     :return:Pytorch model
     '''
-    return torch.load(fname, map_location=torch.device('cpu'))
+    return torch.load(fname, map_location=torch.device('cuda:0'))
 
 
 def test_model(corpus, output_dir):
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
-    device = torch.device("cpu")
+    device = torch.device("cuda:0")
 
     cd_event_model = _load_check_point(EECDCR_CONFIG_DICT["cd_event_model_path"])
     cd_entity_model = _load_check_point(EECDCR_CONFIG_DICT["cd_entity_model_path"])
@@ -66,8 +66,8 @@ def test_model(corpus, output_dir):
 
     doc_to_entity_mentions = load_entity_wd_clusters(EECDCR_CONFIG_DICT)
     event_b3_f1, entity_b3_f1 = test_models(corpus, cd_event_model, cd_entity_model, device,
-                       EECDCR_CONFIG_DICT, write_clusters=True, out_dir=output_dir,
-                       doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
+                                            EECDCR_CONFIG_DICT, write_clusters=True, out_dir=output_dir,
+                                            doc_to_entity_mentions=doc_to_entity_mentions, analyze_scores=False)
     return event_b3_f1, entity_b3_f1
 
 
@@ -83,12 +83,12 @@ def run_conll_scorer(out_dir):
     entity_conll_file = os.path.join(out_dir, 'entity_scorer_cd_out.txt')
 
     event_scorer_command = (
-        'perl ./scorer/scorer.pl all {} {} none > {} \n'.format(EECDCR_CONFIG_DICT["event_gold_file_path"],
+        'perl ./scorer/scorer.pl all {} {} none > {} \n'.format(EECDCR_CONFIG_DICT["event_gold_file"].format(CONFIG['dataset_name']),
                                                                 event_response_filename,
                                                                 event_conll_file))
 
     entity_scorer_command = (
-        'perl ./scorer/scorer.pl all {} {} none > {} \n'.format(EECDCR_CONFIG_DICT["entity_gold_file_path"],
+        'perl ./scorer/scorer.pl all {} {} none > {} \n'.format(EECDCR_CONFIG_DICT["entity_gold_file"].format(CONFIG['dataset_name']),
                                                                 entity_response_filename,
                                                                 entity_conll_file))
 

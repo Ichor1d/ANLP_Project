@@ -4,49 +4,50 @@ from shared.classes import Corpus, EntityMention, EventMention
 from shared.CONSTANTS import mentions_path, CONFIG, EECDCR_CONFIG_DICT
 import json
 import spacy
+from tqdm import tqdm
 
 
-def _save_coref_mentions(mentions):
-    coref_chain = 49999
-    mention_dict = {}
-    for mention in mentions:
-        key = f"{mention.doc_id}_{mention.gold_tag}"
-        if key not in mention_dict:
-            mention_dict[key] = [mention]
-        else:
-            mention_dict[key].append(mention)
-
-    cand_list = []
-    for key in mention_dict:
-        if len(mention_dict[key]) == 1:
-            continue
-
-        coref_chain += 1
-
-        for cand in mention_dict[key]:
-            cand_list.append({
-                "doc_id": cand.doc_id,
-                "sent_id": cand.sent_id,
-                "tokens_numbers": cand.tokens_numbers,
-                "tokens_str": cand.mention_str,
-                "coref_chain": f"{coref_chain}",
-                "is_continuous": cand.is_continuous,
-                "is_singleton": False
-            })
-
-    """
-        In the case of training we want to append the dev clusters to the train cluster.
-        But in the case of testing we always want to only have the momentarily necessary document clusters.
-    """
-    if not CONFIG['test']:
-        if os.path.exists(EECDCR_CONFIG_DICT["wd_entity_coref_file"]):
-            with open(EECDCR_CONFIG_DICT["wd_entity_coref_file"], "r") as f:
-                data = json.load(f)
-            for entry in data:
-                cand_list.append(entry)
-
-    with open(EECDCR_CONFIG_DICT["wd_entity_coref_file"], "w") as f:
-        json.dump(cand_list, f, indent=1)
+# def _save_coref_mentions(mentions):
+#     coref_chain = 49999
+#     mention_dict = {}
+#     for mention in mentions:
+#         key = f"{mention.doc_id}_{mention.gold_tag}"
+#         if key not in mention_dict:
+#             mention_dict[key] = [mention]
+#         else:
+#             mention_dict[key].append(mention)
+#
+#     cand_list = []
+#     for key in mention_dict:
+#         if len(mention_dict[key]) == 1:
+#             continue
+#
+#         coref_chain += 1
+#
+#         for cand in mention_dict[key]:
+#             cand_list.append({
+#                 "doc_id": cand.doc_id,
+#                 "sent_id": cand.sent_id,
+#                 "tokens_numbers": cand.tokens_numbers,
+#                 "tokens_str": cand.mention_str,
+#                 "coref_chain": f"{coref_chain}",
+#                 "is_continuous": cand.is_continuous,
+#                 "is_singleton": False
+#             })
+#
+#     """
+#         In the case of training we want to append the dev clusters to the train cluster.
+#         But in the case of testing we always want to only have the momentarily necessary document clusters.
+#     """
+#     if not CONFIG['test']:
+#         if os.path.exists(EECDCR_CONFIG_DICT["wd_entity_coref_file"].format(CONFIG['dataset_name'])):
+#             with open(EECDCR_CONFIG_DICT["wd_entity_coref_file"], "r") as f:
+#                 data = json.load(f)
+#             for entry in data:
+#                 cand_list.append(entry)
+#
+#     with open(EECDCR_CONFIG_DICT["wd_entity_coref_file"].format(CONFIG['dataset_name']), "w") as f:
+#         json.dump(cand_list, f, indent=1)
 
 
 def _attachMentionToCorpus(mention, corpus: Corpus, is_event):
@@ -146,20 +147,16 @@ def loadMentionsFromJson(corpus: Corpus = None):
         entity_mentions = [x for x in entity_mentions if not x['is_singleton']]
         event_mentions = [x for x in event_mentions if not x['is_singleton']]
 
-    print("Handling all entity mentions")
-    for entity_mention in entity_mentions:
+    for entity_mention in tqdm(entity_mentions, desc="Handling all entity mentions"):
         mention = _createMention(corpus, entity_mention, nlp, 'entity')
         if mention is not None:
             all_mentions.append(mention)
         # corpus = _attachMentionToCorpus(mention, corpus, False)
 
-    print("Handling all event mentions")
-    for event_mention in event_mentions:
+    for event_mention in tqdm(event_mentions, desc="Handling all event mentions"):
         mention = _createMention(corpus, event_mention, nlp, 'event')
         if mention is not None:
             all_mentions.append(mention)
         # corpus = _attachMentionToCorpus(mention, corpus, True)
-
-    _save_coref_mentions(all_mentions)
 
     return corpus
