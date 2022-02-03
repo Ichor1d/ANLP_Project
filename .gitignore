@@ -9,4 +9,8 @@ format.txt
 __pycache__
 .idea
 
-/data/output/*
+/data/*
+!/data/ecb+/*
+!/data/meantime/*
+/data/*/gold
+/data/*/wd
